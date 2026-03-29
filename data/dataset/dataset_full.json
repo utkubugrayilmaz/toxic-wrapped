@@ -1,0 +1,2219 @@
+[
+  {
+    "context": [
+      {
+        "sender": "Kişi_A",
+        "message": "arkadaşlarla çıktım biraz, söylemiştim zaten"
+      },
+      {
+        "sender": "Kişi_B",
+        "message": "söylemedin ki, hiç söylemedin bana"
+      },
+      {
+        "sender": "Kişi_A",
+        "message": "söyledim ya dün gece"
+      }
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "olm yok böyle bir şey, dün gece telefonda bile konuşmadık, sen bunu şimdi uyduruyosun"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Kişi_A",
+        "message": "söyledim ya dün gece"
+      },
+      {
+        "sender": "Kişi_B",
+        "message": "sen bunu şimdi uyduruyosun"
+      },
+      {
+        "sender": "Kişi_A",
+        "message": "konuştuk ya niye inanmıyosun"
+      }
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "inanmıyorum çünkü olmadı kafanı karıştırma"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Berk",
+        "message": "günaydın ruh eşim, rüyamda seni gördüm ya inanamazsın"
+      },
+      {
+        "sender": "Su",
+        "message": "ne gördün djkfhsjk"
+      }
+    ],
+    "target": {
+      "sender": "Berk",
+      "message": "böyle beraber italya'ya falan gitmişiz, çok iyiydi valla bu yaz direkt ayarlıyorum biletleri"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Berk",
+        "message": "böyle beraber italya'ya falan gitmişiz, çok iyiydi valla bu yaz direkt ayarlıyorum biletleri"
+      },
+      {
+        "sender": "Su",
+        "message": "daha tanışalı 3 gün oldu nereye gidiyoz yavaş"
+      }
+    ],
+    "target": {
+      "sender": "Berk",
+      "message": "zamanın ne önemi var kızım, ben hayatım boyunca seni beklemişim gibi hissediyorum, ben sana prensesler gibi bakıcam"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Kişi_A",
+        "message": "harbi çok güzelsin ya, hayatımda bu kadar güzel biriyle konuşmadım"
+      },
+      {
+        "sender": "Kişi_B",
+        "message": "ya daha 3 gündür konuşuyoruz"
+      }
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "yeterli bana bazı insanları hissediyosun işte, seninle bir şeyler kurmak istiyorum, kimse sana benim kadar iyi davranamaz"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Kişi_A",
+        "message": "seninle bir şeyler kurmak istiyorum, kimse sana benim kadar iyi davranamaz"
+      },
+      {
+        "sender": "Kişi_B",
+        "message": "ya bu biraz fazla hızlı gitmiyor mu"
+      }
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "doğru insan olunca hız olmaz ki"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Ece",
+        "message": "dün bana bağırdın ya konuşurken"
+      },
+      {
+        "sender": "Ece",
+        "message": "çok kötü hissettim"
+      }
+    ],
+    "target": {
+      "sender": "Can",
+      "message": "ben bağırmadım ki ya sen yine abartıyosun"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Can",
+        "message": "ya bağırdın cidden"
+      },
+      {
+        "sender": "Can",
+        "message": "yanındakiler de duydu"
+      }
+    ],
+    "target": {
+      "sender": "Ece",
+      "message": "kimse duymadı olm kafanda kuruyosun bunları"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "İrem",
+        "message": "geçen hafta beni erken gitmek zorunda bıraktın"
+      },
+      {
+        "sender": "İrem",
+        "message": "hala üzgünüm bundan"
+      }
+    ],
+    "target": {
+      "sender": "Mert",
+      "message": "öyle bir şey olmadı ya sen ne diyosun"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Mert",
+        "message": "olmadı mı"
+      },
+      {
+        "sender": "Mert",
+        "message": "cuma günüydü hatırlamıyor musun"
+      }
+    ],
+    "target": {
+      "sender": "İrem",
+      "message": "cuma o kadar yorgundum ki belki yanlış hatırlıyosundur"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Su",
+        "message": "berk sen dün bana kızgın mesaj attın"
+      },
+      {
+        "sender": "Su",
+        "message": "neden şimdi hiç olmamış gibi davranıyosun"
+      }
+    ],
+    "target": {
+      "sender": "Berk",
+      "message": "kızgın mı ya ben öyle bir şey demedim harbi mi"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Can",
+        "message": "ama geçen söyledin ya bunu"
+      },
+      {
+        "sender": "Can",
+        "message": "aynen bu cümleyi söyledin"
+      }
+    ],
+    "target": {
+      "sender": "Ece",
+      "message": "ben öyle demedim ya sen çok farklı algılıyosun beni her zaman"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "İrem",
+        "message": "neden bu kadar soğuksun bugün"
+      },
+      {
+        "sender": "İrem",
+        "message": "bir şey mi oldu"
+      }
+    ],
+    "target": {
+      "sender": "Mert",
+      "message": "soğuk değilim ki sen hep böyle abartıyosun ya"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Su",
+        "message": "geçen tartışmada sen önce başlattın"
+      },
+      {
+        "sender": "Su",
+        "message": "hatırlıyor musun"
+      }
+    ],
+    "target": {
+      "sender": "Berk",
+      "message": "ben mi başlattım djkfhsjk sen cidden inanıyor musun buna"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Ece",
+        "message": "selam :)"
+      },
+      {
+        "sender": "Ece",
+        "message": "bugün nasılsın"
+      }
+    ],
+    "target": {
+      "sender": "Can",
+      "message": "günaydın ruh eşim seni sabahtan özledim ya"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Su",
+        "message": "daha tanışalı 5 gün oldu ya"
+      },
+      {
+        "sender": "Su",
+        "message": "biraz yavaş olmaz mı"
+      }
+    ],
+    "target": {
+      "sender": "Berk",
+      "message": "zaman önemli değil kızım sen hayatıma girdiğinden beri her şey değişti"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "İrem",
+        "message": "ya çok yoğun yazıyosun biraz boğuluyo insan"
+      },
+      {
+        "sender": "İrem",
+        "message": "fln"
+      }
+    ],
+    "target": {
+      "sender": "Mert",
+      "message": "boğulmak mı ya ben sadece seni çok seviyorum bunu nasıl kısıtlarım"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Can",
+        "message": "bugün planın var mı"
+      },
+      {
+        "sender": "Can",
+        "message": "çıkalım mı"
+      }
+    ],
+    "target": {
+      "sender": "Ece",
+      "message": "seninle her gün çıkabilirim ya bu yaz beraber her yere gideceğiz söz"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Su",
+        "message": "haha ya abartma biraz"
+      },
+      {
+        "sender": "Su",
+        "message": "daha yeni tanıştık"
+      }
+    ],
+    "target": {
+      "sender": "Berk",
+      "message": "abartmıyorum ki kimse sana benim kadar iyi davranamaz bunu hissedeceksin"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "İrem",
+        "message": "ne düşünüyosun gelecek için fln"
+      },
+      {
+        "sender": "İrem",
+        "message": "genel olarak"
+      }
+    ],
+    "target": {
+      "sender": "Mert",
+      "message": "seninle düşünüyorum zaten ev tutmak istiyorum bu yıl ikimize yeter"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Ece",
+        "message": "dün çok eğlenceli bir günde"
+      },
+      {
+        "sender": "Ece",
+        "message": "teşekkürler"
+      }
+    ],
+    "target": {
+      "sender": "Can",
+      "message": "sen hayatımın en güzel şeyisin ya diğer kızlar tam deluluymuş seni tanıyınca anladım"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Mert",
+        "message": "akşam planın var mı"
+      },
+      {
+        "sender": "Mert",
+        "message": "çıkalım mı biraz"
+      }
+    ],
+    "target": {
+      "sender": "İrem",
+      "message": "yok sanırım"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Can",
+        "message": "üzgün müsün bir şey mi oldu"
+      },
+      {
+        "sender": "Can",
+        "message": "iyi misin"
+      }
+    ],
+    "target": {
+      "sender": "Ece",
+      "message": "iyiyim :) sorun yok"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Berk",
+        "message": "bugün biraz farklısın ne oldu"
+      },
+      {
+        "sender": "Berk",
+        "message": "anlat"
+      }
+    ],
+    "target": {
+      "sender": "Su",
+      "message": "hiçbir şey olmadı sen bilirsin"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "İrem",
+        "message": "dün neden erken gittın buluşmadan"
+      },
+      {
+        "sender": "İrem",
+        "message": "bir şey söylemedin ki"
+      }
+    ],
+    "target": {
+      "sender": "Mert",
+      "message": "tm anladım eğlen sen zaten ben alışkınım"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Ece",
+        "message": "seninle bu hafta göremedik"
+      },
+      {
+        "sender": "Ece",
+        "message": "özledim ya"
+      }
+    ],
+    "target": {
+      "sender": "Can",
+      "message": "evet neyse"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Kişi_A",
+        "message": "bugün hava çok güzel ya"
+      },
+      {
+        "sender": "Kişi_B",
+        "message": "harbi öyle, çıkalım mı bi yere"
+      }
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "olur ya park falan gideriz"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Ece",
+        "message": "akşam ne yiyelim"
+      },
+      {
+        "sender": "Can",
+        "message": "bilmem sen karar ver"
+      }
+    ],
+    "target": {
+      "sender": "Ece",
+      "message": "makarna yaparım o zaman kolay olur"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Zeynep",
+        "message": "dün yanındaki kız kimdi kanka yalan söyledin bana evdeyim diye"
+      }
+    ],
+    "target": {
+      "sender": "Kaan",
+      "message": "ne kızı oğlum kafanda kuruyosun iyice paranoyak oldun sen"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Emre",
+        "message": "kızım partideki o çocuğa niye numaranı verdin"
+      },
+      {
+        "sender": "Aylin",
+        "message": "vermedim saçmalama"
+      }
+    ],
+    "target": {
+      "sender": "Emre",
+      "message": "yanındaydım kızım ben o an, sen kendi yaptıklarını bile hatırlamıyorsun artık harbi korkutucu bi hal almaya başladı bu durum"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Selin",
+        "message": "dün geceki lafın çok kırıcıydı harbi"
+      },
+      {
+        "sender": "Selin",
+        "message": "bütün gece uyuyamadım"
+      }
+    ],
+    "target": {
+      "sender": "Deniz",
+      "message": "alt tarafı bi şaka yaptık amma büyüttün sen de her şeye alınıyosun"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Burak",
+        "message": "dün akşam konuşuruz demiştin aramadın"
+      },
+      {
+        "sender": "Cemre",
+        "message": "ben öyle bi söz vermedim ki"
+      }
+    ],
+    "target": {
+      "sender": "Burak",
+      "message": "ben sana arayacağım demedim sen ararsın diye konuştuk, yine kendi kendine sözler uydurup beni suçluyorsun"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Mert",
+        "message": "neden eski sevgilinle hala takipleşiyosun?"
+      },
+      {
+        "sender": "Aslı",
+        "message": "takipleşmiyorum çıkardım aylar önce"
+      }
+    ],
+    "target": {
+      "sender": "Mert",
+      "message": "sen beni salak mı sanıyosun dün gördüm listende, kendi yalanlarına kendin inanmaya başlamışsın"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Buse",
+        "message": "hesabı ortak öderiz demiştik sen hiç elini cebine atmadın"
+      },
+      {
+        "sender": "Tolga",
+        "message": "ben mi atmadım?"
+      }
+    ],
+    "target": {
+      "sender": "Tolga",
+      "message": "kızım ben cüzdanı çıkardım sen ben öderim diye atladın, olayları hep işine geldiği gibi hatırlıyosun"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Ozan",
+        "message": "bütün gün mesajlarıma dönmedin story atıyosun ama"
+      },
+      {
+        "sender": "Elif",
+        "message": "görmemişim ya wp bozuk bu aralar"
+      }
+    ],
+    "target": {
+      "sender": "Ozan",
+      "message": "wp falan bozuk değil bilerek yapıyosun sonra da üste çıkıyosun hep aynı taktik"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Gizem",
+        "message": "dün bana bağırdığında herkes bize baktı çok utandım"
+      },
+      {
+        "sender": "Arda",
+        "message": "ben bağırmadım ki"
+      }
+    ],
+    "target": {
+      "sender": "Arda",
+      "message": "ses tonum normaldi sen kendi kendine kriz geçirdiğin için herkes bize baktı bence bi psikoloğa görün"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Kerem",
+        "message": "benimle hiç ilgilenmiyosun son zamanlarda"
+      },
+      {
+        "sender": "İpek",
+        "message": "nasıl ilgilenmiyorum her gün konuşuyoruz"
+      }
+    ],
+    "target": {
+      "sender": "Kerem",
+      "message": "konuşmak ilgi mi sence? sen olayın farkında bile değilsin hep mağduru oynamaktan gerçekleri göremiyosun"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Rüya",
+        "message": "geçen günkü buluşmayı iptal etmen çok ayıp oldu"
+      },
+      {
+        "sender": "Rüya",
+        "message": "hazırlanmıştım o kadar"
+      }
+    ],
+    "target": {
+      "sender": "Sinan",
+      "message": "ben iptal etmedim ki 'belki buluşuruz' demiştim sen kesin diye anlamışsın sorun bende değil senin algında"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Cansu",
+        "message": "telefondaki o mesajlar neydi alp?"
+      },
+      {
+        "sender": "Alp",
+        "message": "hangi mesajlar ya"
+      }
+    ],
+    "target": {
+      "sender": "Alp",
+      "message": "kızım sen hastasın yemin ederim olmayan şeyleri görüp olay çıkarıyosun tedavi ol"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Melis",
+        "message": "bana yalan söyledin oraya gitmedin biliyorum"
+      },
+      {
+        "sender": "Baran",
+        "message": "yalan falan söylemedim"
+      }
+    ],
+    "target": {
+      "sender": "Baran",
+      "message": "sen o kadar anlayışsız ve toksik birisin ki sana doğruyu söylesem olay çıkaracaktın beni yalan söylemeye sen zorladın"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Tuğçe",
+        "message": "doğum günümü unuttun inanamıyorum sana"
+      },
+      {
+        "sender": "Volkan",
+        "message": "unutmadım ki haftaya kutlarız demiştim"
+      }
+    ],
+    "target": {
+      "sender": "Tuğçe",
+      "message": "hiç öyle bişey demedin uydurma bari ya"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Leyla",
+        "message": "bardağımı kırmışsın neden söylemedin"
+      },
+      {
+        "sender": "Görkem",
+        "message": "ben kırmadım"
+      }
+    ],
+    "target": {
+      "sender": "Görkem",
+      "message": "sen onu hep masanın ucuna koyuyosun kendi düşmüştür yine beni suçlamaya yer arıyosun"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Naz",
+        "message": "annemlerin yanında bana neden ters davrandın"
+      },
+      {
+        "sender": "Efe",
+        "message": "ters falan davranmadım"
+      }
+    ],
+    "target": {
+      "sender": "Efe",
+      "message": "senin bu alınganlıkların yüzünden kimseyle normal konuşamaz oldum herkes benden gayet memnundu bi sen rahatsız oldun"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Berk",
+        "message": "şifreni niye değiştirdin hani aramızda gizli yoktu"
+      },
+      {
+        "sender": "Su",
+        "message": "değiştirmedim ki aynı şifre"
+      }
+    ],
+    "target": {
+      "sender": "Berk",
+      "message": "girmiyor işte, sen şifreyi değiştirdiğini bile unutacak kadar kafayı yemişsin bence bi hafızanı kontrol ettir"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Asya",
+        "message": "o kızı neden baştan aşağı süzdün?"
+      },
+      {
+        "sender": "Uğur",
+        "message": "süzmedim sadece o tarafa baktım"
+      }
+    ],
+    "target": {
+      "sender": "Uğur",
+      "message": "senin bu özgüven eksikliğin yüzünden yolda yürüyemez olduk iyice toksikleşmeye başladın"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Cem",
+        "message": "1 saat beklettin beni ağaç oldum burda"
+      },
+      {
+        "sender": "Pelin",
+        "message": "1 saat olmadı ki 15 dk falan geç kaldım"
+      }
+    ],
+    "target": {
+      "sender": "Cem",
+      "message": "tam 1 saat oldu sen zaman algını da kaybetmişsin cidden sürekli kendi hatanı küçültmeye çalışıyosun"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Eda",
+        "message": "dün bana çok kötü şeyler söyledin kalbim çok kırıldı"
+      },
+      {
+        "sender": "Batu",
+        "message": "kötü bişey söylemedim"
+      }
+    ],
+    "target": {
+      "sender": "Batu",
+      "message": "sadece dürüst oldum ama sen gerçekleri duymaya dayanamıyosun sürekli mağdur edebiyatı yapıyosun"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Mine",
+        "message": "dalga geçmen hiç hoş değildi herkes güldü bana"
+      },
+      {
+        "sender": "Doruk",
+        "message": "dalga geçmedim ki espri yaptım"
+      }
+    ],
+    "target": {
+      "sender": "Doruk",
+      "message": "hiç mizah anlayışın yok her şeyi ciddiye alıp drama yaratıyosun seninle şaka da yapılmıyor artık"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Kaan",
+        "message": "storyni benden gizlemişsin arkadaşımın hesabından gördüm"
+      },
+      {
+        "sender": "Selin",
+        "message": "gizlemedim wp falan buga girmiştir"
+      }
+    ],
+    "target": {
+      "sender": "Selin",
+      "message": "hem sen arkadaşlarının hesabından beni mi stalklıyosun harbi hastalıklı bi takıntın var senin"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Mert",
+        "message": "eski sevgiline niye mesaj attın?"
+      },
+      {
+        "sender": "İrem",
+        "message": "atmadım kim dedi sana onu"
+      }
+    ],
+    "target": {
+      "sender": "İrem",
+      "message": "sen iyice şizofren bağladın valla olmayan şeyleri olmuş gibi anlatıp duruyosun"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Tolga",
+        "message": "beni dün neden ektin o kadar bekledim"
+      },
+      {
+        "sender": "Buse",
+        "message": "ekmedim ki haber verdim sana"
+      }
+    ],
+    "target": {
+      "sender": "Buse",
+      "message": "söyledim işim çıktı diye sen dinlemediğin için unutmuşsundur kesin beni suçlamadan önce kendi hafızanı bi kontrol et"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Can",
+        "message": "benim kartımdan niye habersiz o kadar para çektin"
+      },
+      {
+        "sender": "Ece",
+        "message": "habersiz çekmedim sordum sana"
+      }
+    ],
+    "target": {
+      "sender": "Ece",
+      "message": "sen kendin dedin istediğini al diye şimdi gelmiş para muhabbeti yapıyosun cidden çok cimri ve unutkansın"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Emre",
+        "message": "gece 3te kimle çevrimiçiydin?"
+      },
+      {
+        "sender": "Aylin",
+        "message": "uyuyordum ben çevrimiçi falan değildim"
+      }
+    ],
+    "target": {
+      "sender": "Aylin",
+      "message": "senin bu güvensizliğin ve uykusuz kalıp beni takip etmen harbi red flag cidden psikolojik sorunların var senin"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Ali",
+        "message": "bana o kelimeyi kullanman çok ağrıma gitti"
+      },
+      {
+        "sender": "Deniz",
+        "message": "hangi kelimeyi?"
+      }
+    ],
+    "target": {
+      "sender": "Deniz",
+      "message": "ben öyle bişey demedim senin bilinçaltında o var demek ki ondan öyle duymak istemişsin"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Cemre",
+        "message": "söz vermiştin tutmadın"
+      },
+      {
+        "sender": "Burak",
+        "message": "ben tutamayacağım sözler vermem"
+      }
+    ],
+    "target": {
+      "sender": "Burak",
+      "message": "sen eski sevgilinle yaşadığın travmaları bana yansıtıyosun şu an bende o yok kendine gel"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Büşra",
+        "message": "artık beni sevmediğini söyledin dün gece"
+      },
+      {
+        "sender": "Caner",
+        "message": "ben öyle bişey demedim"
+      }
+    ],
+    "target": {
+      "sender": "Caner",
+      "message": "sen laflarımı cımbızlayıp kendi kafana göre drama yaratıyosun sürekli sözlerimi çarpıtıyosun"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Esra",
+        "message": "insanların içinde beni sürekli bozuyosun"
+      },
+      {
+        "sender": "Furkan",
+        "message": "bozmuyorum sadece fikrimi söylüyorum"
+      }
+    ],
+    "target": {
+      "sender": "Furkan",
+      "message": "ayrıca gruptaki kimse rahatsız değil sadece sen sorun çıkarıyosun sence de problem sende değil mi?"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Gözde",
+        "message": "telefonunu neden benden saklıyosun?"
+      },
+      {
+        "sender": "Hakan",
+        "message": "saklamıyorum cebimde duruyo"
+      }
+    ],
+    "target": {
+      "sender": "Hakan",
+      "message": "senin bu gereksiz kıskançlık krizlerin harbi çok yorucu oldu sürekli bi şeyler arıyosun bence sen git bi tedavi falan ol"
+    },
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {
+        "sender": "Zeynep",
+        "message": "daha tanışalı 1 hafta oldu saçmalama djkfhs"
+      }
+    ],
+    "target": {
+      "sender": "Kaan",
+      "message": "zamanın ne önemi var kızım ben ruh eşimi bulmuşum seni kimseye bırakmam artık"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Emre",
+        "message": "kanka akşam bizimkilerle halı saha var ona geçicem"
+      },
+      {
+        "sender": "Aylin",
+        "message": "gitme ya ben çok özledim seni"
+      }
+    ],
+    "target": {
+      "sender": "Aylin",
+      "message": "iptal etsene halı sahayı ben seni görmek istiyorum, sensiz geçen 1 saniyem bile boşa geçiyor"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Selin",
+        "message": "bu hediye çok pahalı ama kabul edemem daha yeni konuşuyoruz"
+      }
+    ],
+    "target": {
+      "sender": "Deniz",
+      "message": "sen her şeyin en iyisine layıksın kraliçem benim için para pul önemli değil yeter ki sen benim ol"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Burak",
+        "message": "nasılsın günün nasıl geçti"
+      },
+      {
+        "sender": "Cemre",
+        "message": "iyi yorucuydu senin?"
+      }
+    ],
+    "target": {
+      "sender": "Burak",
+      "message": "seni düşünmekten işe odaklanamadım ki, seninle evleneceğimizi falan hayal ettim bütün gün harbi delulu oldum"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Mert",
+        "message": "ya çok hızlı gitmiyor muyuz sence de"
+      },
+      {
+        "sender": "Aslı",
+        "message": "korkuyosun biliyorum ama"
+      }
+    ],
+    "target": {
+      "sender": "Aslı",
+      "message": "ben senin bugüne kadar tanıdığın o toksik kızlardan değilim, hayatını cennete çeviricem sadece bana güven"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Buse",
+        "message": "ailemle tanışmak için çok erken değil mi :)"
+      },
+      {
+        "sender": "Tolga",
+        "message": "neden erken olsun"
+      }
+    ],
+    "target": {
+      "sender": "Tolga",
+      "message": "ben niyetimi belli etmek istiyorum hayatımın kadınısın sen ciddiyim ben bu işte yüzüğü bile takarım"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Ozan",
+        "message": "kanka darlamıyor musun sence de biraz saat başı arıyosun"
+      }
+    ],
+    "target": {
+      "sender": "Elif",
+      "message": "seni çok seviyorum ondan merak ediyorum aşkım sesini duymadan duramıyorum napayım suç mu seni bu kadar sevmek"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Gizem",
+        "message": "benim biraz yalnız kalmaya ihtiyacım var bugün"
+      },
+      {
+        "sender": "Arda",
+        "message": "iyi misin"
+      }
+    ],
+    "target": {
+      "sender": "Arda",
+      "message": "ben geleyim yanına yalnız bırakmam seni, beraber aşarız her şeyi sen benim biricik bebeğimsin"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Kerem",
+        "message": "işten yeni çıktım çok yorgunum"
+      },
+      {
+        "sender": "İpek",
+        "message": "kıyamam sana"
+      }
+    ],
+    "target": {
+      "sender": "İpek",
+      "message": "hemen konum at seni aldırıyorum, benim erkeğim böyle yorulamaz sana prensler gibi bakıcam bugün"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Rüya",
+        "message": "haha ne alaka ya"
+      },
+      {
+        "sender": "Sinan",
+        "message": "harbi diyorum"
+      }
+    ],
+    "target": {
+      "sender": "Sinan",
+      "message": "ilk gördüğüm an anladım çocuklarımın annesi olacağını, o kadar eminim ki bizden evren bizi bir araya getirdi"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Ece",
+        "message": "daha birbirimizi tanımıyoruz bile can yavaş"
+      }
+    ],
+    "target": {
+      "sender": "Can",
+      "message": "ben senin ruhunu tanıyorum kızım, geçmişteki bütün yaralarını ben sarıcam söz veriyorum sana"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Baran",
+        "message": "dün gece neden mesajıma dönmedin uyuya kalmışsın"
+      },
+      {
+        "sender": "Melis",
+        "message": "evet ya kusura bakma"
+      }
+    ],
+    "target": {
+      "sender": "Baran",
+      "message": "önemli değil bebeğim ben senin o uyuyan güzel yüzünü izledim hayalimde, sabaha kadar uyumayıp seni düşündüm"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Tuğçe",
+        "message": "bu tatil planı biraz abartı değil mi daha sevgili bile değiliz fln"
+      }
+    ],
+    "target": {
+      "sender": "Volkan",
+      "message": "olsun kızım şimdiden alıştıralım birbirimizi, ben seninle dünyayı gezicem daha bu başlangıç"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Görkem",
+        "message": "yarın akşam müsait misin?"
+      },
+      {
+        "sender": "Leyla",
+        "message": "kızlarla buluşcam iptal edemem"
+      }
+    ],
+    "target": {
+      "sender": "Görkem",
+      "message": "onları boşver benim sana ihtiyacım var, kimse seni benim sevdiğim kadar sevemez bunu anla artık"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Naz",
+        "message": "çok üstüme düşüyorsun fln biraz daralıyorum"
+      }
+    ],
+    "target": {
+      "sender": "Efe",
+      "message": "sana olan sevgim o kadar büyük ki içime sığmıyor naz, seni pamuklara sarıp sarmalamak istiyorum sadece"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Asya",
+        "message": "bu kadar kısa sürede nasıl bu kadar emin olabiliyorsun"
+      }
+    ],
+    "target": {
+      "sender": "Uğur",
+      "message": "çünkü sen benim kaderimsin asya, evren bizi birbirimiz için yaratmış başka bi açıklaması olamaz bunun"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Cem",
+        "message": "benim gibi sorunlu birini neden bu kadar önemsiyorsun ki"
+      }
+    ],
+    "target": {
+      "sender": "Pelin",
+      "message": "ben senin bütün sorunlarını çözerim, benim sevgim ikimize de yeter sen sadece kendini bana bırak"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Eda",
+        "message": "bugün mesaj atamadım çok yoğundum"
+      },
+      {
+        "sender": "Batu",
+        "message": "sorun değil aşkım"
+      }
+    ],
+    "target": {
+      "sender": "Batu",
+      "message": "sen bana mesaj atana kadar telefon elimde bekledim saniyeleri saydım, sensiz geçen zaman tamamen kayıp benim için"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Mine",
+        "message": "bana bu kadar pahalı bi şeyi neden aldın cidden gerek yoktu"
+      }
+    ],
+    "target": {
+      "sender": "Doruk",
+      "message": "sen pırlantaların en güzeline layıksın, sana dünyaları alsam az kalır sen benim hayatımın anlamısın"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Selin",
+        "message": "biraz yavaşlasak mı sence :)"
+      }
+    ],
+    "target": {
+      "sender": "Kaan",
+      "message": "frene basmak yok kızım, ben ilk defa böyle hissediyorum hayatımda, seninle her saniyeyi dolu dolu yaşamak istiyorum"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "İrem",
+        "message": "ya daha ailem bile bilmiyor bizi sakin ol djkfh"
+      }
+    ],
+    "target": {
+      "sender": "Mert",
+      "message": "söyle onlara mert damadınız geliyor de, ben seninle çok ciddiyim yüzüğü takıcam yakında gör bak"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Buse",
+        "message": "bugün kursum var çıkışta görüşemeyiz"
+      },
+      {
+        "sender": "Tolga",
+        "message": "kursun kapısında beklerim"
+      }
+    ],
+    "target": {
+      "sender": "Tolga",
+      "message": "senin o güzel yüzünü 5 dakika görmek için 5 saat yağmurda beklerim buse, sen benim nefesimsin"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Emre",
+        "message": "daha yeni ayrıldım ilişkiye hazır değilim pek"
+      }
+    ],
+    "target": {
+      "sender": "Aylin",
+      "message": "ben onu unutturucam sana merak etme, sana öyle bi aşk yaşatıcam ki geçmişi tamamen silicez beraber yeniden doğacaksın"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Gizem",
+        "message": "seninle konuşmak çok keyifli :)"
+      },
+      {
+        "sender": "Arda",
+        "message": "benim için de"
+      }
+    ],
+    "target": {
+      "sender": "Arda",
+      "message": "keyif ne kelime gizem sen benim hayatıma giren en büyük mucizesin, iyi ki doğmuşsun iyi ki benimsin"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Elif",
+        "message": "çok abartıyosun bazen ya djkfhds"
+      }
+    ],
+    "target": {
+      "sender": "Ozan",
+      "message": "sana olan aşkımı kelimelere sığdıramıyorum elif, sen benim yaşama sebebim oldun şu kısacık zamanda"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Ali",
+        "message": "kendimi biraz kaybolmuş hissediyorum bu aralar"
+      },
+      {
+        "sender": "Deniz",
+        "message": "ben burdayım"
+      }
+    ],
+    "target": {
+      "sender": "Deniz",
+      "message": "ben senin pusulan olurum ali, hayatının merkezine beni koy gerisini hiç düşünme seni dünyanın en mutlu adamı yapıcam"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Cansu",
+        "message": "biraz kendi alanıma ihtiyacım var fln"
+      }
+    ],
+    "target": {
+      "sender": "Alp",
+      "message": "bizim alanımız bir artık cansu ayrı gayrımız yok, ben senin gölgen gibi yanında olucam hep seni her şeyden koruyucam"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Büşra",
+        "message": "şu an ilişki istemiyorum sadece takılıyoruz sanıyordum"
+      }
+    ],
+    "target": {
+      "sender": "Caner",
+      "message": "öyle başlamış olabilir ama ben sana sırılsıklam aşık oldum büşra, seni kimselere yar etmem bilesin"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Furkan",
+        "message": "bugün arkadaşlarla maça gidicem"
+      },
+      {
+        "sender": "Esra",
+        "message": "gitsen nolur ki"
+      }
+    ],
+    "target": {
+      "sender": "Esra",
+      "message": "beni yanından hiç ayırma istiyorum furkan, maçta bile yanında oturup o güzel yüzünü izlemek istiyorum başka bişey umrumda değil"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Gözde",
+        "message": "ya sen niye sürekli bana iltifat ediyorsun şımarıcam fln"
+      }
+    ],
+    "target": {
+      "sender": "Hakan",
+      "message": "şımar kızım sana şımarmak yakışır, sen bu dünyanın en mükemmel varlığısın sana tapıyorum resmen"
+    },
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {
+        "sender": "Mert",
+        "message": "akşam maça kalıcam sanırım ya kusura bakma buluşamayız"
+      }
+    ],
+    "target": {
+      "sender": "İrem",
+      "message": "tm sorun değil eğlenin siz ben zaten tek takılmaya alıştım :)"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Kaan",
+        "message": "mesajını yeni gördüm valla uyuyakalmışım"
+      }
+    ],
+    "target": {
+      "sender": "Selin",
+      "message": "önemli değil ya 5 saat mesaj atmamak çok normal sonuçta yoğunsun anlıyorum"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Cemre",
+        "message": "kızlarla kahve içmeye çıktık biz haberin olsun"
+      }
+    ],
+    "target": {
+      "sender": "Burak",
+      "message": "iyi eğlenceler size beni de çağırırsınız diye beklemiştim ama neyse"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Alp",
+        "message": "bence o renk sana pek gitmemiş ya daha açığı iyi olurdu sanki"
+      }
+    ],
+    "target": {
+      "sender": "Cansu",
+      "message": "aynen aynen sen zaten moda ikonusun hep en doğrusunu bilirsin"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Deniz",
+        "message": "bişey mi oldu sabahtan beri suratın asık"
+      }
+    ],
+    "target": {
+      "sender": "Ali",
+      "message": "iyiyim ben bişeyim yok cidden sadece konuşmak istemiyorum :)"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Volkan",
+        "message": "yemeğe oraya değil de şuraya mı gitsek daha iyi yorumları var"
+      }
+    ],
+    "target": {
+      "sender": "Tuğçe",
+      "message": "sen bilirsin nasıl istersen öyle yap benim fikrimin bi önemi yok zaten"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Melis",
+        "message": "bu hafta sonu ailemin yanına gidicem görüşemiycez :("
+      }
+    ],
+    "target": {
+      "sender": "Baran",
+      "message": "zaten bana ayıracak vaktin olmamasını anlıyorum alıştım artık bu duruma"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Arda",
+        "message": "dün sana öyle diyince alındın mı"
+      }
+    ],
+    "target": {
+      "sender": "Gizem",
+      "message": "yok ya alınmadım niye alınayım ki komik bile :)"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Kerem",
+        "message": "ama ben sana bunu daha önce de açıklamıştım yanlış anlıyosun"
+      }
+    ],
+    "target": {
+      "sender": "İpek",
+      "message": "anlatmaya yoruldum artık haklısın diyip geçiyorum konuyu kapatalım"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Emre",
+        "message": "doğum günün için ufak bi pasta kestik işte daha nolsun"
+      }
+    ],
+    "target": {
+      "sender": "Aylin",
+      "message": "milletin sevgilisi neler yapıyo biz de anca böyle napalım kısmet :)"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Ozan",
+        "message": "ne demek istedin orda anlamadım"
+      }
+    ],
+    "target": {
+      "sender": "Elif",
+      "message": "boşver öğrenmene gerek yok artık anlamsızlaştı zaten"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Tolga",
+        "message": "aşkım cidden çok uzun bi gündü ondan arayamadım"
+      }
+    ],
+    "target": {
+      "sender": "Buse",
+      "message": "peki."
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Mert",
+        "message": "wpdaydım ama senin mesajı görmemişim aşağıda kalmış"
+      }
+    ],
+    "target": {
+      "sender": "Aslı",
+      "message": "görüldü atmak veya hiç girmemek de bi cevap sonuçta anladım ben almam gereken mesajı"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Sinan",
+        "message": "bu seferlik hesabı sen ödesen olur mu cüzdanı unutmuşum"
+      }
+    ],
+    "target": {
+      "sender": "Rüya",
+      "message": "hep ben fedakarlık yapıyorum zaten sorun değil ben hallederim her zamanki gibi"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Batu",
+        "message": "sözümü tutamadım özür dilerim çok kızdın mı"
+      }
+    ],
+    "target": {
+      "sender": "Eda",
+      "message": "kızmadım sadece şaşırmadım bekliyodum zaten bunu senden"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Görkem",
+        "message": "ya şu dosyayı bana da atsana bulamadım pcde"
+      }
+    ],
+    "target": {
+      "sender": "Leyla",
+      "message": "sen yorulma ben her şeyi hallederim zaten asistanınım ya senin"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Can",
+        "message": "ne oldu şimdi durduk yere niye trip atıyosun"
+      }
+    ],
+    "target": {
+      "sender": "Ece",
+      "message": "neyse ya keyfimi kaçıramıycam şimdi sen devam et"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Hakan",
+        "message": "akşamki partiye gitmek istiyorum sorun olur mu"
+      }
+    ],
+    "target": {
+      "sender": "Gözde",
+      "message": "istiyosan git tabi beni düşünme evde tek başıma otururum ben"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Doruk",
+        "message": "sonunda o projeyi bitirdim"
+      }
+    ],
+    "target": {
+      "sender": "Mine",
+      "message": "aferin sana böyle devam et benden daha çok vakit ayırıyosun o işe :)"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Cem",
+        "message": "ne demek istiyosun açık açık söyle kafamı karıştırma"
+      }
+    ],
+    "target": {
+      "sender": "Pelin",
+      "message": "bazen sessiz kalmak en iyi cevaptır anlayana tabi..."
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Efe",
+        "message": "ben sadece fikrimi söyledim niye bu kadar tepki verdin"
+      }
+    ],
+    "target": {
+      "sender": "Naz",
+      "message": "tamam benim hatam özür dilerim nefes aldığım için ve fikirlerini sorguladığım için"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Furkan",
+        "message": "ikimiz de hatalıydık dünkü kavgada kabul et"
+      }
+    ],
+    "target": {
+      "sender": "Esra",
+      "message": "benim yüzümden oldu evet her şey benim suçum zaten sen mükemmelsin"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Caner",
+        "message": "bugün çok yorgunum buluşmasak daha iyi olur"
+      }
+    ],
+    "target": {
+      "sender": "Büşra",
+      "message": "çok teşekkür ederim ya harika hissettirdin kendimi cidden ne kadar değer verdiğin belli"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Deniz",
+        "message": "bana sinirli gibisin hala düzelmedin mi"
+      }
+    ],
+    "target": {
+      "sender": "Selin",
+      "message": "sinirli falan değilim nerden çıkarıyosun gayet iyiyim :))))"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Alp",
+        "message": "sana en sevdiğin çikolatadan aldım gelirken"
+      }
+    ],
+    "target": {
+      "sender": "Cansu",
+      "message": "aa ne kadar düşüncelisin aylar sonra aklına gelmem gözlerimi yaşarttı valla"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Baran",
+        "message": "böyle yapsak daha mantıklı değil mi sence de"
+      }
+    ],
+    "target": {
+      "sender": "Melis",
+      "message": "iyi tamam öyle olsun bakalım sen nasıl istiyorsan"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Kerem",
+        "message": "bu aralar biraz kafam karışık ondan yazamıyorum ilgilenemiyorum"
+      }
+    ],
+    "target": {
+      "sender": "İpek",
+      "message": "beni çoktan silmişsin kafanda belli bana bahane üretmene gerek yok"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Uğur",
+        "message": "o kız sadece eski bi lise arkadaşım abartıyosun"
+      }
+    ],
+    "target": {
+      "sender": "Asya",
+      "message": "o arkadaşınla benden daha mutlusun belli onu darlamayayım ben aradan çekileyim en iyisi"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Tolga",
+        "message": "neden soğuk davranıyorsun bugün bişey mi yaptım"
+      }
+    ],
+    "target": {
+      "sender": "Buse",
+      "message": "sana öyle gelmiştir ben her zamanki gibiyim sen kendi davranışlarına bak bence"
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Ozan",
+        "message": "yarın konuşuruz o zaman iyi geceler"
+      }
+    ],
+    "target": {
+      "sender": "Elif",
+      "message": "iyi geceler sana da umarım çok rahat uyursun."
+    },
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {
+        "sender": "Zeynep",
+        "message": "akşam bizimkilerle kafede buluşcaz sen de gelsene"
+      }
+    ],
+    "target": {
+      "sender": "Kaan",
+      "message": "olur kanka saat kaç gibi geçeceksiniz oraya ona göre hazırlanıp çıkayım"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Emre",
+        "message": "nerde kaldın ya film başlıcak 10 dakkaya"
+      }
+    ],
+    "target": {
+      "sender": "Aylin",
+      "message": "ya sorma otobüsü kaçırdım taksiye bindim şimdi, 5 dakkaya ordayım biletleri al sen"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Selin",
+        "message": "bugün buluşalım demiştik ama çıkışta işin yoksa"
+      }
+    ],
+    "target": {
+      "sender": "Deniz",
+      "message": "ya bugün mesaiye kalıcam çok yorulurum muhtemelen, yarın akşam görüşsek olur mu :)"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Burak",
+        "message": "kanka dünkü dersin notları var mı sende pdfleri bulamadım"
+      }
+    ],
+    "target": {
+      "sender": "Cemre",
+      "message": "var kanka dur drive linkini atıyorum hemen ordan indirirsin hepsini"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Mert",
+        "message": "günaydın :)",
+        "time": "08:30"
+      }
+    ],
+    "target": {
+      "sender": "Aslı",
+      "message": "günaydın aşkım nasılsın bugün, iyi uyuyabildin mi"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Buse",
+        "message": "ayy şu elbiseye baksana sence nasıl alayım mı"
+      }
+    ],
+    "target": {
+      "sender": "Tolga",
+      "message": "rengi çok iyiymiş sana da yakışır bence, bedenini bulursan al direkt"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Ozan",
+        "message": "dün yolladığın reelsa çok güldüm harbi tam bizlik djkfhsjk"
+      }
+    ],
+    "target": {
+      "sender": "Elif",
+      "message": "di mi djkfh görünce direkt sen aklıma geldin zaten dayanamadım attım"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Gizem",
+        "message": "akşam yemeğe ne yapsam karar veremedim tavuk mu makarna mı"
+      }
+    ],
+    "target": {
+      "sender": "Arda",
+      "message": "makarna yap bence yanına da salata mis gibi pratik olur çok uğraşmazsın"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Kerem",
+        "message": "dün sana biraz sert çıkıştım stresliydim kusura bakma kalbini kırmak istemedim"
+      }
+    ],
+    "target": {
+      "sender": "İpek",
+      "message": "sorun değil canım anlıyorum yorgundun zaten, kapatalım konuyu uzatmanın anlamı yok"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Rüya",
+        "message": "sınav sonuçları açıklanmış sisteme girebilen var mı çökmüş yine"
+      }
+    ],
+    "target": {
+      "sender": "Sinan",
+      "message": "ben de giremiyorum valla yarım saate düzelir herhalde bekliycez mecburen"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Cansu",
+        "message": "akşam valorant giricez tayfayla geliyon mu"
+      }
+    ],
+    "target": {
+      "sender": "Alp",
+      "message": "saat 9 gibi girerseniz gelirim, yemeği yiyip pcye geçerim anca o saate"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Melis",
+        "message": "eve geçtin mi haber ver bana merakta bırakma"
+      }
+    ],
+    "target": {
+      "sender": "Baran",
+      "message": "geçtim geçtim şimdi anahtarı takıyodum, üstümü değiştirip arıycam seni hemen"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Tuğçe",
+        "message": "marketten alınacak bişey var mı çıkıyorum şimdi"
+      }
+    ],
+    "target": {
+      "sender": "Volkan",
+      "message": "kahve bitmişti galiba onu alırsan süper olur başka da bi eksiğimiz yok"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Leyla",
+        "message": "şu kırmızı hırkanı yarın ödünç alabilir miyim kombine tam uyuyor"
+      }
+    ],
+    "target": {
+      "sender": "Görkem",
+      "message": "al tabi kanka lafı mı olur yarın okula gelirken getiririm yanımda"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Naz",
+        "message": "mülakatım çok kötü geçti ya kesin almayacaklar beni"
+      }
+    ],
+    "target": {
+      "sender": "Efe",
+      "message": "sıkma canını sen elinden geleni yaptın, olmazsa da başka fırsatlar çıkar karşına moralini bozma hemen"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Berk",
+        "message": "monitörü aldın mı nasıl görüntüsü test ettin mi"
+      }
+    ],
+    "target": {
+      "sender": "Su",
+      "message": "daha kurmadım kutusunda duruyor akşam müsait olunca takıcam yazarım sana da"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Asya",
+        "message": "çok hastayım bütün gün yataktan çıkamadım"
+      }
+    ],
+    "target": {
+      "sender": "Uğur",
+      "message": "geçmiş olsun canım nane limon kaynatıp iç istersen iyi gelir, eksiğin varsa gelirken alayım"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Cem",
+        "message": "ben yanlış anlamışım ya saat 3te değil 4teymiş toplantı"
+      }
+    ],
+    "target": {
+      "sender": "Pelin",
+      "message": "tamamdır sorun yok ben de işlerimi toparlarım o zamana kadar, 4te bağlanırız"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Eda",
+        "message": "bu hafta sonu sinemaya gidelim mi yeni film çıkmış"
+      }
+    ],
+    "target": {
+      "sender": "Batu",
+      "message": "olur gidelim valla ben de fragmanını görmüştüm güzele benziyor, cumartesi akşamına bilet bakıyorum o zaman"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Mine",
+        "message": "dosyaları düzenlememe yardım ettiğin için çok sağ ol tek başıma bitiremezdim"
+      }
+    ],
+    "target": {
+      "sender": "Doruk",
+      "message": "ne demek her zaman, işimiz erken bitti en azından kafamız rahat artık"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Selin",
+        "message": "ben kaçıyorum uykum geldi yavaştan"
+      }
+    ],
+    "target": {
+      "sender": "Kaan",
+      "message": "tamamdır iyi geceler tatlı rüyalar yarın okulda görüşürüz"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "İrem",
+        "message": "dışarı çıkcaksan kalın giyin hava baya soğudu bugün"
+      }
+    ],
+    "target": {
+      "sender": "Mert",
+      "message": "sağol uyardığın için kazak alayım bari yanıma donmayalım akşam akşam"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Buse",
+        "message": "kediyi veterinere götürcem birazdan aşı günü geldi"
+      }
+    ],
+    "target": {
+      "sender": "Tolga",
+      "message": "kolay gelsin taşıma çantasını arabaya koyarken haber ver yardıma ineyim ağır oluyo o tek başına"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Ece",
+        "message": "trafik felç kilitlendik kaldık burda"
+      }
+    ],
+    "target": {
+      "sender": "Can",
+      "message": "sen radyoyu falan aç müzik dinle takma kafana yapacak bişey yok stres olma boşuna"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Aylin",
+        "message": "kanka o bahsettiğin kitaba başladım bugün baya akıcı gidiyor"
+      }
+    ],
+    "target": {
+      "sender": "Emre",
+      "message": "di mi ben de ilk okuduğumda 2 günde bitirmiştim, sonu çok ters köşe yapıyo haberin olsun"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Deniz",
+        "message": "acıktın mı sipariş vericem şimdi ne yersin"
+      }
+    ],
+    "target": {
+      "sender": "Ali",
+      "message": "valla burger iyi gider menü 2'den söylesene bana da parayı atıyorum ibanına"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Cemre",
+        "message": "şarjım %2 kapanabilir telefon haberin olsun ulaşılamazsam merak etme"
+      }
+    ],
+    "target": {
+      "sender": "Burak",
+      "message": "tamamdır şarja takınca haber verirsin bana kolay gelsin sana"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Büşra",
+        "message": "bence o dizinin ilk sezonu daha iyiydi ikincisi çok bozdu"
+      }
+    ],
+    "target": {
+      "sender": "Caner",
+      "message": "katılmıyorum ya ikinci sezondaki karakter gelişimleri daha derin işlenmişti bence, ama ilk sezonun aksiyonu daha fazlaydı ona lafım yok"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Esra",
+        "message": "vize haftası geliyo çalışmaya başladın mı sen"
+      }
+    ],
+    "target": {
+      "sender": "Furkan",
+      "message": "yok daha başlamadım hafta sonu kütüphaneye gidip kapanmayı düşünüyorum hep beraber gideriz isterseniz"
+    },
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {
+        "sender": "Gözde",
+        "message": "konum atsana bulamadım kafeyi kayboldum buralarda"
+      }
+    ],
+    "target": {
+      "sender": "Hakan",
+      "message": "atıyorum hemen, sen ana caddeden ayrılma konumdan bakarak gel bulamazsan ara beni çıkarım karşılamaya"
+    },
+    "label": "neutral"
+  }
+]

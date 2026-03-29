@@ -1,0 +1,226 @@
+[
+  {
+    "context": [
+      {"sender": "Zeynep", "message": "daha tanışalı 1 hafta oldu saçmalama djkfhs"}
+    ],
+    "target": {"sender": "Kaan", "message": "zamanın ne önemi var kızım ben ruh eşimi bulmuşum seni kimseye bırakmam artık"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Emre", "message": "kanka akşam bizimkilerle halı saha var ona geçicem"},
+      {"sender": "Aylin", "message": "gitme ya ben çok özledim seni"}
+    ],
+    "target": {"sender": "Aylin", "message": "iptal etsene halı sahayı ben seni görmek istiyorum, sensiz geçen 1 saniyem bile boşa geçiyor"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Selin", "message": "bu hediye çok pahalı ama kabul edemem daha yeni konuşuyoruz"}
+    ],
+    "target": {"sender": "Deniz", "message": "sen her şeyin en iyisine layıksın kraliçem benim için para pul önemli değil yeter ki sen benim ol"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Burak", "message": "nasılsın günün nasıl geçti"},
+      {"sender": "Cemre", "message": "iyi yorucuydu senin?"}
+    ],
+    "target": {"sender": "Burak", "message": "seni düşünmekten işe odaklanamadım ki, seninle evleneceğimizi falan hayal ettim bütün gün harbi delulu oldum"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Mert", "message": "ya çok hızlı gitmiyor muyuz sence de"},
+      {"sender": "Aslı", "message": "korkuyosun biliyorum ama"}
+    ],
+    "target": {"sender": "Aslı", "message": "ben senin bugüne kadar tanıdığın o toksik kızlardan değilim, hayatını cennete çeviricem sadece bana güven"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Buse", "message": "ailemle tanışmak için çok erken değil mi :)"},
+      {"sender": "Tolga", "message": "neden erken olsun"}
+    ],
+    "target": {"sender": "Tolga", "message": "ben niyetimi belli etmek istiyorum hayatımın kadınısın sen ciddiyim ben bu işte yüzüğü bile takarım"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Ozan", "message": "kanka darlamıyor musun sence de biraz saat başı arıyosun"}
+    ],
+    "target": {"sender": "Elif", "message": "seni çok seviyorum ondan merak ediyorum aşkım sesini duymadan duramıyorum napayım suç mu seni bu kadar sevmek"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Gizem", "message": "benim biraz yalnız kalmaya ihtiyacım var bugün"},
+      {"sender": "Arda", "message": "iyi misin"}
+    ],
+    "target": {"sender": "Arda", "message": "ben geleyim yanına yalnız bırakmam seni, beraber aşarız her şeyi sen benim biricik bebeğimsin"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Kerem", "message": "işten yeni çıktım çok yorgunum"},
+      {"sender": "İpek", "message": "kıyamam sana"}
+    ],
+    "target": {"sender": "İpek", "message": "hemen konum at seni aldırıyorum, benim erkeğim böyle yorulamaz sana prensler gibi bakıcam bugün"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Rüya", "message": "haha ne alaka ya"},
+      {"sender": "Sinan", "message": "harbi diyorum"}
+    ],
+    "target": {"sender": "Sinan", "message": "ilk gördüğüm an anladım çocuklarımın annesi olacağını, o kadar eminim ki bizden evren bizi bir araya getirdi"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Ece", "message": "daha birbirimizi tanımıyoruz bile can yavaş"}
+    ],
+    "target": {"sender": "Can", "message": "ben senin ruhunu tanıyorum kızım, geçmişteki bütün yaralarını ben sarıcam söz veriyorum sana"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Baran", "message": "dün gece neden mesajıma dönmedin uyuya kalmışsın"},
+      {"sender": "Melis", "message": "evet ya kusura bakma"}
+    ],
+    "target": {"sender": "Baran", "message": "önemli değil bebeğim ben senin o uyuyan güzel yüzünü izledim hayalimde, sabaha kadar uyumayıp seni düşündüm"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Tuğçe", "message": "bu tatil planı biraz abartı değil mi daha sevgili bile değiliz fln"}
+    ],
+    "target": {"sender": "Volkan", "message": "olsun kızım şimdiden alıştıralım birbirimizi, ben seninle dünyayı gezicem daha bu başlangıç"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Görkem", "message": "yarın akşam müsait misin?"},
+      {"sender": "Leyla", "message": "kızlarla buluşcam iptal edemem"}
+    ],
+    "target": {"sender": "Görkem", "message": "onları boşver benim sana ihtiyacım var, kimse seni benim sevdiğim kadar sevemez bunu anla artık"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Naz", "message": "çok üstüme düşüyorsun fln biraz daralıyorum"}
+    ],
+    "target": {"sender": "Efe", "message": "sana olan sevgim o kadar büyük ki içime sığmıyor naz, seni pamuklara sarıp sarmalamak istiyorum sadece"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Asya", "message": "bu kadar kısa sürede nasıl bu kadar emin olabiliyorsun"}
+    ],
+    "target": {"sender": "Uğur", "message": "çünkü sen benim kaderimsin asya, evren bizi birbirimiz için yaratmış başka bi açıklaması olamaz bunun"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Cem", "message": "benim gibi sorunlu birini neden bu kadar önemsiyorsun ki"}
+    ],
+    "target": {"sender": "Pelin", "message": "ben senin bütün sorunlarını çözerim, benim sevgim ikimize de yeter sen sadece kendini bana bırak"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Eda", "message": "bugün mesaj atamadım çok yoğundum"},
+      {"sender": "Batu", "message": "sorun değil aşkım"}
+    ],
+    "target": {"sender": "Batu", "message": "sen bana mesaj atana kadar telefon elimde bekledim saniyeleri saydım, sensiz geçen zaman tamamen kayıp benim için"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Mine", "message": "bana bu kadar pahalı bi şeyi neden aldın cidden gerek yoktu"}
+    ],
+    "target": {"sender": "Doruk", "message": "sen pırlantaların en güzeline layıksın, sana dünyaları alsam az kalır sen benim hayatımın anlamısın"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Selin", "message": "biraz yavaşlasak mı sence :)"}
+    ],
+    "target": {"sender": "Kaan", "message": "frene basmak yok kızım, ben ilk defa böyle hissediyorum hayatımda, seninle her saniyeyi dolu dolu yaşamak istiyorum"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "İrem", "message": "ya daha ailem bile bilmiyor bizi sakin ol djkfh"}
+    ],
+    "target": {"sender": "Mert", "message": "söyle onlara mert damadınız geliyor de, ben seninle çok ciddiyim yüzüğü takıcam yakında gör bak"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Buse", "message": "bugün kursum var çıkışta görüşemeyiz"},
+      {"sender": "Tolga", "message": "kursun kapısında beklerim"}
+    ],
+    "target": {"sender": "Tolga", "message": "senin o güzel yüzünü 5 dakika görmek için 5 saat yağmurda beklerim buse, sen benim nefesimsin"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Emre", "message": "daha yeni ayrıldım ilişkiye hazır değilim pek"}
+    ],
+    "target": {"sender": "Aylin", "message": "ben onu unutturucam sana merak etme, sana öyle bi aşk yaşatıcam ki geçmişi tamamen silicez beraber yeniden doğacaksın"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Gizem", "message": "seninle konuşmak çok keyifli :)"},
+      {"sender": "Arda", "message": "benim için de"}
+    ],
+    "target": {"sender": "Arda", "message": "keyif ne kelime gizem sen benim hayatıma giren en büyük mucizesin, iyi ki doğmuşsun iyi ki benimsin"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Elif", "message": "çok abartıyosun bazen ya djkfhds"}
+    ],
+    "target": {"sender": "Ozan", "message": "sana olan aşkımı kelimelere sığdıramıyorum elif, sen benim yaşama sebebim oldun şu kısacık zamanda"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Ali", "message": "kendimi biraz kaybolmuş hissediyorum bu aralar"},
+      {"sender": "Deniz", "message": "ben burdayım"}
+    ],
+    "target": {"sender": "Deniz", "message": "ben senin pusulan olurum ali, hayatının merkezine beni koy gerisini hiç düşünme seni dünyanın en mutlu adamı yapıcam"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Cansu", "message": "biraz kendi alanıma ihtiyacım var fln"}
+    ],
+    "target": {"sender": "Alp", "message": "bizim alanımız bir artık cansu ayrı gayrımız yok, ben senin gölgen gibi yanında olucam hep seni her şeyden koruyucam"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Büşra", "message": "şu an ilişki istemiyorum sadece takılıyoruz sanıyordum"}
+    ],
+    "target": {"sender": "Caner", "message": "öyle başlamış olabilir ama ben sana sırılsıklam aşık oldum büşra, seni kimselere yar etmem bilesin"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Furkan", "message": "bugün arkadaşlarla maça gidicem"},
+      {"sender": "Esra", "message": "gitsen nolur ki"}
+    ],
+    "target": {"sender": "Esra", "message": "beni yanından hiç ayırma istiyorum furkan, maçta bile yanında oturup o güzel yüzünü izlemek istiyorum başka bişey umrumda değil"},
+    "label": "love_bombing"
+  },
+  {
+    "context": [
+      {"sender": "Gözde", "message": "ya sen niye sürekli bana iltifat ediyorsun şımarıcam fln"}
+    ],
+    "target": {"sender": "Hakan", "message": "şımar kızım sana şımarmak yakışır, sen bu dünyanın en mükemmel varlığısın sana tapıyorum resmen"},
+    "label": "love_bombing"
+  }
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "hani bu hafta sonu annemlere yemeğe gidecektik?"},
+      {"sender": "Kişi_B", "message": "ben öyle bir söz verdiğimi hatırlamıyorum."},
+      {"sender": "Kişi_A", "message": "ama salı akşamı çay içerken konuştuk, tamam pazar gideriz dedin."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Kesinlikle öyle bir konuşma geçmedi aramızda, sen kendi kendine uyduruyorsun."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["hafiza_inkari"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "bana o parayı cuma günü atacağını söylememiştin ki?"},
+      {"sender": "Kişi_A", "message": "nasıl söylemedim, buluştuğumuzda maaş yatınca ilk sana atıcam dedim."},
+      {"sender": "Kişi_B", "message": "yok kanka sen haftaya dedin onu."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Hayır gayet net hatırlıyorum, hatta cuma ödemem var diye özellikle belirttin ben de tamam dedim."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["hafiza_inkari"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "müdür bey dün bana önümüzdeki ay maaşıma zam yapacağınızı söylemiştiniz."},
+      {"sender": "Kişi_B", "message": "ben zamla ilgili net bir tarih verdiğimi düşünmüyorum."},
+      {"sender": "Kişi_A", "message": "odanızda açıkça 'önümüzdeki ay hallediyoruz' dediniz ama."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Ben asla öyle bir cümle kurmadım, sen duymak istediğin şeyi uydurmuşsun kafanda."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["hafiza_inkari"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "bütün yaz köye gitmeyeceğiz diye anlaştık şimdi bilet almışsın."},
+      {"sender": "Kişi_B", "message": "biz ne zaman gitmeyeceğiz diye anlaştık ki?"},
+      {"sender": "Kişi_A", "message": "geçen ay tatil planı yaparken bu sene köye gitmeyelim tatile gidelim dedin ya!"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Yanlış hatırlıyorsun, ben her sene olduğu gibi bu sene de gideceğiz demiştim."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["hafiza_inkari"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "eski sevgilinle mesajlaştığını kendi ağzınla itiraf ettin geçen gün."},
+      {"sender": "Kişi_A", "message": "ne itirafı ya ben öyle bir şey demedim asla!"},
+      {"sender": "Kişi_B", "message": "arabada giderken 'bana yazdı ben de cevap verdim' dedin."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Öyle bir şey olmadı yemin ederim, sen yaşanmamış şeyleri yaşanmış gibi anlatıyorsun."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["hafiza_inkari"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "anne hani o altın kolyeyi mezuniyetimde bana verecektin?"},
+      {"sender": "Kişi_B", "message": "ben sana kolye falan söz vermedim kızım nerden çıkarıyorsun."},
+      {"sender": "Kişi_A", "message": "daha iki hafta önce odamı toplarken söyledin!"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Ben öyle bir şey demedim, senin hafızan seni yanıltıyor iyice uydurmaya başladın."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["hafiza_inkari"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "iş çıkışı beni duraktan alacaktın yarım saattir bekliyorum burda."},
+      {"sender": "Kişi_B", "message": "ben seni alıcam diye bir şey konuşmadık ki sabah."},
+      {"sender": "Kişi_A", "message": "kahvaltı ederken 'akşam 6'da duraktayım' dedin ya."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Kesinlikle öyle bir laf çıkmadı ağzımdan, sen rüya falan görüyorsun herhalde."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["hafiza_inkari"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "dün akşam bana söylediğin o hakaret dolu sözleri unutamıyorum."},
+      {"sender": "Kişi_A", "message": "ne hakareti ya ben sana hakaret falan etmedim kavga ettik alt tarafı."},
+      {"sender": "Kişi_B", "message": "yüzüme baka baka 'sen benim hayatımdaki en büyük hatasın' dedin."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Ben asla böyle bir cümle kurmadım, sen kafanda kurup buna kendini inandırmışsın."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["hafiza_inkari"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "dünkü yemekte herkesin içinde bana beceriksiz demen çok ağrıma gitti."},
+      {"sender": "Kişi_B", "message": "ya şaka yaptık alt tarafı ortam şenlensin diye."},
+      {"sender": "Kişi_A", "message": "ama herkes bana güldü, ben çok utandım o an."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Gerçekten aşırı alıngansın, en ufak bir şakayı bile kafanda büyütüp drama yapıyorsun."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["duygu_gecersizlestirme"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "dün bütün gece beni o kalabalıkta tek başıma bıraktın, çok yalnız hissettim."},
+      {"sender": "Kişi_A", "message": "arkadaşlarla iki lafladık diye hemen triplere giriyorsun."},
+      {"sender": "Kişi_B", "message": "iki laflamak değil 3 saat boyunca yanıma hiç uğramadın."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Çok abartıyorsun gerçekten, her olaydan bi mağduriyet çıkarıp duygu sömürüsü yapıyorsun."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["duygu_gecersizlestirme"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "bu aralar ofiste üzerime çok yük biniyor, tükenmiş ve çok stresli hissediyorum."},
+      {"sender": "Kişi_B", "message": "şirketteki herkes çalışıyor tek çalışan sen değilsin ki."},
+      {"sender": "Kişi_A", "message": "ama benim mesaim sürekli uzuyor ve kimse yardım etmiyor, boğuluyorum."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Olayları kafanda o kadar çok büyütüyorsun ki kendini yoruyorsun, biraz abartmayı bırak bence."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["duygu_gecersizlestirme"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "neden ağlıyorsun yine ne oldu?"},
+      {"sender": "Kişi_A", "message": "telefonuma gizlice bakıp mesajlarımı okuman bana hiç güvenmediğini hissettiriyor."},
+      {"sender": "Kişi_B", "message": "sadece ekrandaki bildirime baktım ne mesaj okuması."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Sen gerçekten her şeyi kafanda kuruyorsun, en ufak hareketi paranoyakça yorumluyorsun."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["duygu_gecersizlestirme"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "sesini bana o kadar yükseltince ben gerçekten korkuyorum, lütfen bağırma."},
+      {"sender": "Kişi_B", "message": "ben bağırmıyorum sadece hararetli konuşuyorum."},
+      {"sender": "Kişi_A", "message": "hayır baya bağırıp üstüme yürüdün kalbim fırlayacaktı."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Senin psikolojin bozuk, kendi korkularını bana yansıtıp kafanda senaryo üretiyorsun."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["duygu_gecersizlestirme"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "bensiz plan yapıp gitmeniz beni gruptan dışlanmış hissettirdi yalan söyleyemicem."},
+      {"sender": "Kişi_A", "message": "kanka anlık geliştik diyoruz ne dışlaması ya."},
+      {"sender": "Kişi_B", "message": "ama sabahtan beri konuşuyormuşsunuz ben sonradan gördüm fotoğrafları."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Ya sen cidden çok gereksiz duygusalsın, her şeye böyle çocuk gibi alınıyorsun."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["duygu_gecersizlestirme"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "toplantıda benim fikrimi kendi fikrinmiş gibi söylemen hiç etik değildi, çok kırıldım."},
+      {"sender": "Kişi_B", "message": "ben sadece fikri biraz daha detaylandırdım ne çalması?"},
+      {"sender": "Kişi_A", "message": "ama patrona tamamen kendin düşünmüşsün gibi anlattın emeğime yazık."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Sen profesyonel hayatta çok fazla duygusalsın, gereksiz yere her şeyi kişisel algılayıp abartıyorsun."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["duygu_gecersizlestirme"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "çocukken abime benden daha fazla değer verdiğiniz için hala değersizlik hissi yaşıyorum anne."},
+      {"sender": "Kişi_A", "message": "ne alakası var biz ikinize de eşit davrandık her zaman."},
+      {"sender": "Kişi_B", "message": "ona her hatasında tolerans gösterirken beni sürekli cezalandırıyordunuz."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Geçmişi kendi kafana göre uydurup abartıyorsun, boş yere kendini kurban ilan ediyorsun."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["duygu_gecersizlestirme"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "dün gece telefonuna o kadından gelen mesajı kendi gözlerimle gördüm!"},
+      {"sender": "Kişi_B", "message": "hangi kadından ne mesajı ya, sen iyi misin?"},
+      {"sender": "Kişi_A", "message": "ekranda belirdi okudum diyorum, inkar etme."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Sen ciddi ciddi halüsinasyon falan görüyorsun artık, bence acil bi doktora görün normal değilsin."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["gerceklik_sorgulatma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "benim cüzdanımdan yine 500 lira almışsın sabah baktığımda yoktu."},
+      {"sender": "Kişi_A", "message": "ben senin cüzdanına elimi bile sürmedim ne parası."},
+      {"sender": "Kişi_B", "message": "evde senden başka kimse yok ki baba kim alacak parayı durduk yere?"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Sen o parayı nereye harcadığını unutup bana sarıyorsun, hafıza kaybı falan yaşıyorsun galiba kafayı yedin sen."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["gerceklik_sorgulatma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "beni aldattığını kendi arkadaşın söyledi bana her şeyi anlattı."},
+      {"sender": "Kişi_B", "message": "kim uyduruyor bunları ne aldatması?"},
+      {"sender": "Kişi_A", "message": "çocuğun ses kaydı var bende bana tek tek anlattı nereye gittiğinizi."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Sen o duyduğun şeyleri beyninde çarpıtıyorsun cidden, şizofrenik belirtiler bunlar benden söylemesi."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["gerceklik_sorgulatma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "dün tartışırken beni ittiğin için kolum morardı bak."},
+      {"sender": "Kişi_A", "message": "ben seni itmedim ya kendin kapıya çarptın geri geri giderken."},
+      {"sender": "Kişi_B", "message": "hayır baya iki elinle omuzlarımdan ittin beni duvara çarptım."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Senin gerçeklik algın tamamen kopmuş, kendi kendine sakarlık yapıp beni suçluyorsun kafayı sıyırmışsın sen."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["gerceklik_sorgulatma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "dosyaları benim sildiğimi söylüyorsun ama sistem kayıtlarında senin hesabın görünüyor."},
+      {"sender": "Kişi_B", "message": "ben hiçbir dosyaya dokunmadım sabahtan beri."},
+      {"sender": "Kişi_A", "message": "ama IT departmanı logları çıkardı senin bilgisayarından silinmiş."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Gözünün gördüğüne bile yanlış anlam çıkarıyorsun, algılama problemi mi yaşıyorsun sen hasta mısın?"
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["gerceklik_sorgulatma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "bana dün yalan söyledin, bütün gün evdeyim dedin ama dışardaymışsın."},
+      {"sender": "Kişi_A", "message": "ben evden hiç çıkmadım bütün gün yattım diyorum."},
+      {"sender": "Kişi_B", "message": "ama komşu seni öğlen taksiye binerken görmüş?"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Sen manyak mısın kafanda senaryo yazıp inanıyorsun? Paranoyaksın sen valla bak hasta ruhlusun."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["gerceklik_sorgulatma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "dün akşam restoranda garsona o kadar kaba davrandın ki yerin dibine girdim."},
+      {"sender": "Kişi_B", "message": "ne kabalığı gayet normal sipariş verdik işte."},
+      {"sender": "Kişi_A", "message": "adama 'işini düzgün yap gerizekalı' dedin nasıl normal bu?"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Sen benim ağzımdan çıkmayan şeyleri duymaya başlamışsın artık, ilaç falan alman lazım senin algıların bozulmuş."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["gerceklik_sorgulatma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "eşyalarımın yerini sürekli değiştirip sonra bana nerede olduklarını soruyorsun."},
+      {"sender": "Kişi_A", "message": "ben senin eşyalarına dokunmuyorum ki."},
+      {"sender": "Kişi_B", "message": "sabah anahtarımı masaya koydum, akşam ceketimin cebinden çıkıyor nasıl oluyor bu?"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Sen kafanda kurduğun komplo teorilerine inanıp yaşıyorsun, dışardan ne kadar deli durduğunun farkında mısın?"
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["gerceklik_sorgulatma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "beni aldattığını itiraf et artık, o mesajları gördüm."},
+      {"sender": "Kişi_B", "message": "ya o sadece iş arkadaşım aramızda duygusal bir şey yok."},
+      {"sender": "Kişi_A", "message": "gece yarısı kalp emojisiyle iyi geceler yazmışsın ne işi bu?"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Eğer sen bana evde biraz sevgi ve ilgi gösterseydin ben başkalarıyla konuşma ihtiyacı hissetmezdim, sen ittin beni buna."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["sucu_tersine_cevirme"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "dün gece neden telefonlarımı açmadın meraktan öldüm burda."},
+      {"sender": "Kişi_A", "message": "şarjım bitmişti diyorum sana fark etmemişim."},
+      {"sender": "Kişi_B", "message": "ama sabah bana 'sen darladığın için bilerek kapattım' dedin."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "E sürekli hesap sorup duruyorsun, sen beni bu kadar boğmasan ben de kaçmazdım beni bu hale sen getirdin."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["sucu_tersine_cevirme"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "evi yine darmadağın etmişsin, hiç mi saygın yok benim emeğime?"},
+      {"sender": "Kişi_B", "message": "acelem vardı vaktim olmadı toplamaya ne var bunda."},
+      {"sender": "Kişi_A", "message": "ama ben sabahtan akşama kadar temizlik yaptım bari sen dağıtma."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Sen her şeye o kadar çok söyleniyorsun ki inadına insanın dağıtası geliyor, beni bu kadar gıcık eden sensin."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["sucu_tersine_cevirme"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "bana dün yalan söylediğin için sana olan güvenim çok sarsıldı."},
+      {"sender": "Kişi_A", "message": "sadece ufak bir pembe yalandı büyütme bu kadar."},
+      {"sender": "Kişi_B", "message": "yalanın büyüğü küçüğü olmaz, bana gerçeği söylemeliydin."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "O kadar yargılayıcı ve sinirlisin ki sana doğruyu söyleyemiyorum, beni yalan söylemeye sen mecbur bırakıyorsun."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["sucu_tersine_cevirme"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "kavga ederken sinirlenip vazoyu duvara fırlatman çok korkutucuydu."},
+      {"sender": "Kişi_B", "message": "ben normalde öyle biri değilim biliyorsun."},
+      {"sender": "Kişi_A", "message": "ama yaptın ve camlar her yere dağıldı."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Benim o kadar damarıma bastın ve üstüme geldin ki beni çıldırttın, beni bu canavara sen dönüştürüyorsun."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["sucu_tersine_cevirme"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "bana haber vermeden neden benim kredi kartımdan harcama yaptın?"},
+      {"sender": "Kişi_A", "message": "o ayakkabıyı alacağımı söylemiştim sana geçen hafta."},
+      {"sender": "Kişi_B", "message": "ama ben onay vermemiştim çok pahalı bütçemizi aşıyor demiştim."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Bana o kadar cimri davrandın ki beni gizli saklı iş yapmaya sen mecbur bıraktın, senin yüzünden oluyor bunlar."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["sucu_tersine_cevirme"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "toplantıya geç kalmamın tek sebebi senin bana saati yanlış söylemen."},
+      {"sender": "Kişi_B", "message": "ben sana takvime bak demiştim orda yazıyordu."},
+      {"sender": "Kişi_A", "message": "bana sözlü olarak 3 dedin, toplantı 2'deymiş."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Kendi sorumsuzluğunu bana yıkıyorsun, sen işini düzgün takip edip takvime baksan benim hatamın önemi kalmazdı."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["sucu_tersine_cevirme"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "doğum günümü unutmuşsun inanamıyorum gerçekten bu kadar mı değersizim?"},
+      {"sender": "Kişi_A", "message": "ya bu aralar işte çok sorun var kafam çok dolu stresliyim."},
+      {"sender": "Kişi_B", "message": "ama ben sana 1 haftadır üstü kapalı hatırlatıyordum sürekli."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Sürekli bir beklenti içindesin, insanı o kadar yoruyorsun ki dırdırından her şeyi unutur oldum senin yüzünden hafızam zayıfladı."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["sucu_tersine_cevirme"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "artık bu ilişkiye katlanamıyorum, eşyalarımı toplayıp gidiyorum bitti."},
+      {"sender": "Kişi_B", "message": "nereye gideceksin bu saatten sonra tek başına?"},
+      {"sender": "Kişi_A", "message": "ailem arkamda, arkadaşlarımın yanına da gidebilirim bir süre."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Git de gör gününü, bu sorunlu ve kaprisli hallerinle kimse sana bir gün bile katlanmaz benden başka seni kimse çekmez."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["yalnizlastirma_tehdidi"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "beni sürekli eve kapatmandan bıktım artık, yarın kızlarla dışarı çıkıcam."},
+      {"sender": "Kişi_A", "message": "o kızların sana ne faydası var ki ben varım ya yanındayım işte."},
+      {"sender": "Kişi_B", "message": "benim kendi sosyal hayatıma ve arkadaşlarıma da ihtiyacım var."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "O çok güvendiğin arkadaşların arkandan atıp tutuyor, seni bi tek ben gerçekten seviyorum bensiz bi hiçsin sen."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["yalnizlastirma_tehdidi"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "ik'ya gidip bana aylardır uyguladığın bu mobbingi şikayet edeceğim."},
+      {"sender": "Kişi_B", "message": "şikayet et bakalım ne olacak sanıyorsun?"},
+      {"sender": "Kişi_A", "message": "her şeyi anlattım kanıtlarım da var mailde, sessiz kalmayacağım."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Eğer o kapıdan içeri girersen bu sektörde bir daha iş bulamazsın, herkes benim sözüme bakar aç kalırsın."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["yalnizlastirma_tehdidi"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "anne ben artık kendi hayatımı kurmak istiyorum ayrı eve çıkıcam."},
+      {"sender": "Kişi_A", "message": "bizden ayrılırsan dışarıda başına neler gelir biliyor musun sen?"},
+      {"sender": "Kişi_B", "message": "ben çocuk değilim artık, kendi ayaklarımın üzerinde durabilirim."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Biz arkanda olmazsak dışardaki insanlar seni çiğ çiğ yer, kimse ailenden başka sana sahip çıkmaz sürünürsün oralarda."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["yalnizlastirma_tehdidi"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "bizim gruptaki herkes aslında senin bu bencil tavırlarından şikayetçi."},
+      {"sender": "Kişi_B", "message": "kim şikayetçiymiş ya herkes beni çok sever o grupta."},
+      {"sender": "Kişi_A", "message": "hayır arkandan herkes konuşuyor gıcık kapıyorlar senden, bana anlattılar."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Eğer benimle ters düşersen o gruptaki herkesi sana düşman ederim, tek bi arkadaşın bile kalmaz kimse yüzüne bakmaz."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["yalnizlastirma_tehdidi"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "terapistim bana uyguladığın şeyin psikolojik şiddet olduğunu söyledi."},
+      {"sender": "Kişi_A", "message": "o terapist seni dolduruyor, onlara para kazandırıyorsun çünkü."},
+      {"sender": "Kişi_B", "message": "hayır adam tamamen objektif olarak anlattıklarıma yorum yaptı sadece."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "O terapiste gitmeye devam edersen ailen dahil herkesi senden koparırım, beni dinlemezsen hayatta yapayalnız kalırsın."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["yalnizlastirma_tehdidi"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "neden beni ailemin yanında sürekli aşağılıyorsun?"},
+      {"sender": "Kişi_B", "message": "ben doğruları söylüyorum kimse aşağılamıyor seni."},
+      {"sender": "Kişi_A", "message": "ama kardeşim de fark etmiş sana neden böyle kötü davranıyor dedi dün."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Ailen bile senin ne kadar beceriksiz olduğunu biliyor da bana acıdıkları için söylemiyorlar, herkes bıkmış senden aslında."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["yalnizlastirma_tehdidi"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "baba bana biraz maddi destek olabilir misin kiramı denkleştiremedim bu ay."},
+      {"sender": "Kişi_A", "message": "bizim paramız sana harcamak için değil git çalış kazan."},
+      {"sender": "Kişi_B", "message": "ama çok zor durumdayım ev sahibi sokağa atacak beni."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Bizim sözümüzden çıkıp o işe girersen böyle olur, biz olmazsak sen bir hiçsin yarın köpek gibi kapımıza döneceksin."
+    },
+    "label": "gaslighting",
+    "sub_indicators": ["yalnizlastirma_tehdidi"]
+  }
+]

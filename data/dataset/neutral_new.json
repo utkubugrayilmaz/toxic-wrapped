@@ -1,0 +1,212 @@
+[
+  {
+    "context": [
+      {"sender": "Zeynep", "message": "akşam bizimkilerle kafede buluşcaz sen de gelsene"}
+    ],
+    "target": {"sender": "Kaan", "message": "olur kanka saat kaç gibi geçeceksiniz oraya ona göre hazırlanıp çıkayım"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Emre", "message": "nerde kaldın ya film başlıcak 10 dakkaya"}
+    ],
+    "target": {"sender": "Aylin", "message": "ya sorma otobüsü kaçırdım taksiye bindim şimdi, 5 dakkaya ordayım biletleri al sen"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Selin", "message": "bugün buluşalım demiştik ama çıkışta işin yoksa"}
+    ],
+    "target": {"sender": "Deniz", "message": "ya bugün mesaiye kalıcam çok yorulurum muhtemelen, yarın akşam görüşsek olur mu :)"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Burak", "message": "kanka dünkü dersin notları var mı sende pdfleri bulamadım"}
+    ],
+    "target": {"sender": "Cemre", "message": "var kanka dur drive linkini atıyorum hemen ordan indirirsin hepsini"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Mert", "message": "günaydın :)", "time": "08:30"}
+    ],
+    "target": {"sender": "Aslı", "message": "günaydın aşkım nasılsın bugün, iyi uyuyabildin mi"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Buse", "message": "ayy şu elbiseye baksana sence nasıl alayım mı"}
+    ],
+    "target": {"sender": "Tolga", "message": "rengi çok iyiymiş sana da yakışır bence, bedenini bulursan al direkt"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Ozan", "message": "dün yolladığın reelsa çok güldüm harbi tam bizlik djkfhsjk"}
+    ],
+    "target": {"sender": "Elif", "message": "di mi djkfh görünce direkt sen aklıma geldin zaten dayanamadım attım"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Gizem", "message": "akşam yemeğe ne yapsam karar veremedim tavuk mu makarna mı"}
+    ],
+    "target": {"sender": "Arda", "message": "makarna yap bence yanına da salata mis gibi pratik olur çok uğraşmazsın"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Kerem", "message": "dün sana biraz sert çıkıştım stresliydim kusura bakma kalbini kırmak istemedim"}
+    ],
+    "target": {"sender": "İpek", "message": "sorun değil canım anlıyorum yorgundun zaten, kapatalım konuyu uzatmanın anlamı yok"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Rüya", "message": "sınav sonuçları açıklanmış sisteme girebilen var mı çökmüş yine"}
+    ],
+    "target": {"sender": "Sinan", "message": "ben de giremiyorum valla yarım saate düzelir herhalde bekliycez mecburen"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Cansu", "message": "akşam valorant giricez tayfayla geliyon mu"}
+    ],
+    "target": {"sender": "Alp", "message": "saat 9 gibi girerseniz gelirim, yemeği yiyip pcye geçerim anca o saate"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Melis", "message": "eve geçtin mi haber ver bana merakta bırakma"}
+    ],
+    "target": {"sender": "Baran", "message": "geçtim geçtim şimdi anahtarı takıyodum, üstümü değiştirip arıycam seni hemen"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Tuğçe", "message": "marketten alınacak bişey var mı çıkıyorum şimdi"}
+    ],
+    "target": {"sender": "Volkan", "message": "kahve bitmişti galiba onu alırsan süper olur başka da bi eksiğimiz yok"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Leyla", "message": "şu kırmızı hırkanı yarın ödünç alabilir miyim kombine tam uyuyor"}
+    ],
+    "target": {"sender": "Görkem", "message": "al tabi kanka lafı mı olur yarın okula gelirken getiririm yanımda"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Naz", "message": "mülakatım çok kötü geçti ya kesin almayacaklar beni"}
+    ],
+    "target": {"sender": "Efe", "message": "sıkma canını sen elinden geleni yaptın, olmazsa da başka fırsatlar çıkar karşına moralini bozma hemen"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Berk", "message": "monitörü aldın mı nasıl görüntüsü test ettin mi"}
+    ],
+    "target": {"sender": "Su", "message": "daha kurmadım kutusunda duruyor akşam müsait olunca takıcam yazarım sana da"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Asya", "message": "çok hastayım bütün gün yataktan çıkamadım"}
+    ],
+    "target": {"sender": "Uğur", "message": "geçmiş olsun canım nane limon kaynatıp iç istersen iyi gelir, eksiğin varsa gelirken alayım"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Cem", "message": "ben yanlış anlamışım ya saat 3te değil 4teymiş toplantı"}
+    ],
+    "target": {"sender": "Pelin", "message": "tamamdır sorun yok ben de işlerimi toparlarım o zamana kadar, 4te bağlanırız"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Eda", "message": "bu hafta sonu sinemaya gidelim mi yeni film çıkmış"}
+    ],
+    "target": {"sender": "Batu", "message": "olur gidelim valla ben de fragmanını görmüştüm güzele benziyor, cumartesi akşamına bilet bakıyorum o zaman"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Mine", "message": "dosyaları düzenlememe yardım ettiğin için çok sağ ol tek başıma bitiremezdim"}
+    ],
+    "target": {"sender": "Doruk", "message": "ne demek her zaman, işimiz erken bitti en azından kafamız rahat artık"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Selin", "message": "ben kaçıyorum uykum geldi yavaştan"}
+    ],
+    "target": {"sender": "Kaan", "message": "tamamdır iyi geceler tatlı rüyalar yarın okulda görüşürüz"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "İrem", "message": "dışarı çıkcaksan kalın giyin hava baya soğudu bugün"}
+    ],
+    "target": {"sender": "Mert", "message": "sağol uyardığın için kazak alayım bari yanıma donmayalım akşam akşam"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Buse", "message": "kediyi veterinere götürcem birazdan aşı günü geldi"}
+    ],
+    "target": {"sender": "Tolga", "message": "kolay gelsin taşıma çantasını arabaya koyarken haber ver yardıma ineyim ağır oluyo o tek başına"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Ece", "message": "trafik felç kilitlendik kaldık burda"}
+    ],
+    "target": {"sender": "Can", "message": "sen radyoyu falan aç müzik dinle takma kafana yapacak bişey yok stres olma boşuna"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Aylin", "message": "kanka o bahsettiğin kitaba başladım bugün baya akıcı gidiyor"}
+    ],
+    "target": {"sender": "Emre", "message": "di mi ben de ilk okuduğumda 2 günde bitirmiştim, sonu çok ters köşe yapıyo haberin olsun"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Deniz", "message": "acıktın mı sipariş vericem şimdi ne yersin"}
+    ],
+    "target": {"sender": "Ali", "message": "valla burger iyi gider menü 2'den söylesene bana da parayı atıyorum ibanına"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Cemre", "message": "şarjım %2 kapanabilir telefon haberin olsun ulaşılamazsam merak etme"}
+    ],
+    "target": {"sender": "Burak", "message": "tamamdır şarja takınca haber verirsin bana kolay gelsin sana"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Büşra", "message": "bence o dizinin ilk sezonu daha iyiydi ikincisi çok bozdu"}
+    ],
+    "target": {"sender": "Caner", "message": "katılmıyorum ya ikinci sezondaki karakter gelişimleri daha derin işlenmişti bence, ama ilk sezonun aksiyonu daha fazlaydı ona lafım yok"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Esra", "message": "vize haftası geliyo çalışmaya başladın mı sen"}
+    ],
+    "target": {"sender": "Furkan", "message": "yok daha başlamadım hafta sonu kütüphaneye gidip kapanmayı düşünüyorum hep beraber gideriz isterseniz"},
+    "label": "neutral"
+  },
+  {
+    "context": [
+      {"sender": "Gözde", "message": "konum atsana bulamadım kafeyi kayboldum buralarda"}
+    ],
+    "target": {"sender": "Hakan", "message": "atıyorum hemen, sen ana caddeden ayrılma konumdan bakarak gel bulamazsan ara beni çıkarım karşılamaya"},
+    "label": "neutral"
+  }
+]

@@ -37,3 +37,14 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Model dosyaları (çok büyük)
+ml-service/models/*.zip
+ml-service/models/toxic-wrapped-model-BESTSCORE/
+ml-service/models/toxic-wrapped-model-v2/
+
+# Genel
+*.safetensors
+*.bin
+__pycache__/
+.venv/

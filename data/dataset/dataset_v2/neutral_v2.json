@@ -1,0 +1,652 @@
+[
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "akşam eve gelirken markete uğrayacak mısın?"},
+      {"sender": "Kişi_B", "message": "evet uğrarım, alınacak bir şeyler mi vardı?"},
+      {"sender": "Kişi_A", "message": "kahvaltılık peynir bitmiş, bir de iki ekmek alırsan süper olur."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Tamamdır, başka bir şey lazımsa yaz bana çıkmadan."
+    },
+    "label": "neutral",
+    "sub_indicators": ["gunluk_koordinasyon"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "kanka akşam halı saha maçı kaçtaydı?"},
+      {"sender": "Kişi_A", "message": "9-10 arası aldık sahayı, 8 buçukta toplanırız."},
+      {"sender": "Kişi_B", "message": "benim arabada yer var, gelirken seni de alayım mı?"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Çok iyi olur valla, ben durağın orda beklerim seni."
+    },
+    "label": "neutral",
+    "sub_indicators": ["gunluk_koordinasyon"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "abla annemin ilacını yazdırdın mı bugün?"},
+      {"sender": "Kişi_B", "message": "evet sağlık ocağına gittim sabah, eczaneden de aldım."},
+      {"sender": "Kişi_A", "message": "iyi bari, akşam ben geçerken alırım senden."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Tamam, ben poşete koyup kapının yanına bırakıyorum."
+    },
+    "label": "neutral",
+    "sub_indicators": ["gunluk_koordinasyon"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "aşkım akşam yemeği ne yapalım?"},
+      {"sender": "Kişi_A", "message": "valla hiç halim yok dışarıdan mı söylesek bugünlük?"},
+      {"sender": "Kişi_B", "message": "olur, lahmacun falan gömelim mi?"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Uyar bana, sen siparişi ver ben de salata yapayım bari."
+    },
+    "label": "neutral",
+    "sub_indicators": ["gunluk_koordinasyon"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "bugün ofise geçecek misin?"},
+      {"sender": "Kişi_B", "message": "yok evden çalışıyorum bugün, bir durum mu vardı?"},
+      {"sender": "Kişi_A", "message": "benim masada bir dosya kalmış da, sana zahmet fotoğrafını atar mısın diyecektim."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Ben yokum ama istersen ahmet'e yazayım o çekip atsın sana."
+    },
+    "label": "neutral",
+    "sub_indicators": ["gunluk_koordinasyon"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "kanka faturaları yatırdın mı son günü bugün galiba"},
+      {"sender": "Kişi_A", "message": "interneti yatırdım da elektrik duruyor daha"},
+      {"sender": "Kişi_B", "message": "tamam ben elektriği hallediyorum şimdi hesaptan"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Eline sağlık, kirayı da ayın 15'inde atarız ev sahibine."
+    },
+    "label": "neutral",
+    "sub_indicators": ["gunluk_koordinasyon"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "anne pazar kahvaltısına kaçta uyanalım?"},
+      {"sender": "Kişi_B", "message": "ben 9 gibi kalkıp çayı koyarım, siz 10'a doğru gelin."},
+      {"sender": "Kişi_A", "message": "tamamdır gelirken simit falan alayım mı sıcak sıcak?"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Al oğlum güzel olur, baban da seviyor zaten."
+    },
+    "label": "neutral",
+    "sub_indicators": ["gunluk_koordinasyon"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "eve geçiyor musun nerdesin?"},
+      {"sender": "Kişi_A", "message": "yok mesaiye kaldım bugün, işler yetişmedi."},
+      {"sender": "Kişi_B", "message": "tahmini kaç gibi çıkarsın peki yemek bekleteyim mi?"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Siz yiyin beni beklemeyin, 9'u bulur herhalde çıkmam."
+    },
+    "label": "neutral",
+    "sub_indicators": ["bilgi_aktarimi"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "kanka toplantı saat 2'de değil miydi niye kimse yok?"},
+      {"sender": "Kişi_B", "message": "mail atmışlar görmedin mi, 3 buçuğa ertelenmiş."},
+      {"sender": "Kişi_A", "message": "aa hiç bakmadım maillere sabahtan beri."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "İyi bari erken öğrendin, sen de git kahve falan iç o zamana kadar."
+    },
+    "label": "neutral",
+    "sub_indicators": ["bilgi_aktarimi"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "benim kargom gelecekti bugün ama evde yokum, sen evde misin?"},
+      {"sender": "Kişi_A", "message": "evdeyim canım ben alırım senin yerine sorun değil."},
+      {"sender": "Kişi_B", "message": "çok sağol kuryeye zile basmamasını not düşmüştüm, kapıyı çalarlar."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Tamamdır kulağım kapıda, teslim alınca haber veririm sana."
+    },
+    "label": "neutral",
+    "sub_indicators": ["bilgi_aktarimi"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "doktor randevun nası geçti ne dedi doktor?"},
+      {"sender": "Kişi_B", "message": "kan tahlili istedi, sonuçları yarın öğleden sonra çıkacakmış."},
+      {"sender": "Kişi_A", "message": "anladım, önemli bir şey yoktur umarım."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Doktor rutin bir kontrol dedi, çok endişelenecek bir durum yokmuş."
+    },
+    "label": "neutral",
+    "sub_indicators": ["bilgi_aktarimi"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "nerdesin kanka herkes geldi seni bekliyoruz."},
+      {"sender": "Kişi_A", "message": "köprüde inanılmaz bir trafik var kaza olmuş galiba."},
+      {"sender": "Kişi_B", "message": "ciddi misin tahmini ne kadara açılır yol?"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Harita 30 dakika gecikme gösteriyor, siz yavaştan başlayın yemeğe."
+    },
+    "label": "neutral",
+    "sub_indicators": ["bilgi_aktarimi"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "hoca sınav notlarını açıklamış sisteme girdin mi?"},
+      {"sender": "Kişi_B", "message": "yok sistem çökmüş giremiyorum, sen kaç almışsın?"},
+      {"sender": "Kişi_A", "message": "ben 75 almışım beklediğimden iyi geldi valla."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Tebrikler kanka, ben de açılınca bakarım artık."
+    },
+    "label": "neutral",
+    "sub_indicators": ["bilgi_aktarimi"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "kanka ben çıkıyorum evden anahtarı nereye bırakayım?"},
+      {"sender": "Kişi_A", "message": "paspasın altına koy istersen ben yarım saate gelicem zaten."},
+      {"sender": "Kişi_B", "message": "tamamdır paspasın altına sakladım."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Gördüm mesajı, sağol kardeşim görüşürüz."
+    },
+    "label": "neutral",
+    "sub_indicators": ["bilgi_aktarimi"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "bugün okulda günüm o kadar yoğun geçti ki telefonu elime alamadım."},
+      {"sender": "Kişi_B", "message": "tahmin ettim canım, ben de seni merak etmiştim."},
+      {"sender": "Kişi_A", "message": "akşam uzun uzun konuşuruz, bugün seni çok özledim gerçekten."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Ben de seni çok özledim, eve geçince ara beni hasret giderelim."
+    },
+    "label": "neutral",
+    "sub_indicators": ["saglikli_duygusal_ifade"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "dünkü mezunlar buluşması efsane değil miydi?"},
+      {"sender": "Kişi_A", "message": "kesinlikle ya, yıllar sonra herkesi bir arada görmek harikaydı."},
+      {"sender": "Kişi_B", "message": "aynen, eski günleri ne kadar özlediğimi fark ettim."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Görüşmek hepimize çok iyi geldi bence, arayı bu kadar açmayalım bir daha."
+    },
+    "label": "neutral",
+    "sub_indicators": ["saglikli_duygusal_ifade"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "abla yolladığın doğum günü hediyesi kargodan çıktı şimdi geldi."},
+      {"sender": "Kişi_B", "message": "ay beğendin mi peki rengi falan nasıl tam olmuş mu?"},
+      {"sender": "Kişi_A", "message": "çok beğendim tam istediğim gibi duruyor üstümde."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Güle güle kullan canım benim, seni mutlu ettiysem ne güzel."
+    },
+    "label": "neutral",
+    "sub_indicators": ["saglikli_duygusal_ifade"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "anne sınav sonucum açıklandı, istediğim yeri kazanmışım!"},
+      {"sender": "Kişi_A", "message": "ay inanmıyorum gerçekten mi? kızım çok tebrik ederim seni!"},
+      {"sender": "Kişi_B", "message": "evet annecimm sonunda emeklerimin karşılığını aldım."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Senin adına o kadar mutluyum ki anlatamam, gözlerim doldu resmen."
+    },
+    "label": "neutral",
+    "sub_indicators": ["saglikli_duygusal_ifade"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "izinlerimi ayarladım patronla konuştum yazın tatile geliyorum kesin."},
+      {"sender": "Kişi_B", "message": "oley be sonunda hallettin şu işi süper haber."},
+      {"sender": "Kişi_A", "message": "evet valla aylardır bu anı bekliyordum stres atmaya çok ihtiyacım var."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Çok sevindim kanka, bomba gibi bir tatil yapacağız beraber."
+    },
+    "label": "neutral",
+    "sub_indicators": ["saglikli_duygusal_ifade"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "akşamki yemek gerçekten çok lezzetliydi ellerine sağlık aşkım."},
+      {"sender": "Kişi_A", "message": "afiyet olsun sevgilim beğendiğine çok sevindim."},
+      {"sender": "Kişi_B", "message": "bütün yorgunluğumu aldı o sofra valla iyi geldi."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Sen mutlu olunca ben daha çok mutlu oluyorum, iyi ki varsın."
+    },
+    "label": "neutral",
+    "sub_indicators": ["saglikli_duygusal_ifade"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "şu dosyaları klasörleyip arşive kaldırdım bilgin olsun."},
+      {"sender": "Kişi_B", "message": "ellerine sağlık, ben de diğer rafa geçicem birazdan."},
+      {"sender": "Kişi_A", "message": "yardım lazım olursa seslen bana."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Tamamdır, sağol."
+    },
+    "label": "neutral",
+    "sub_indicators": ["pozitif_kisa_yanitlar"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "kanka çıkışta kahve içelim mi bizim oradaki mekanda?"},
+      {"sender": "Kişi_A", "message": "olur valla kafam şişti sabahtan beri iyi gelir."},
+      {"sender": "Kişi_B", "message": "10 dakikaya iniyorum aşağı o zaman ben."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Süper, bekliyorum."
+    },
+    "label": "neutral",
+    "sub_indicators": ["pozitif_kisa_yanitlar"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "aşkım marketten gelirken çikolata da alır mısın canım çekti."},
+      {"sender": "Kişi_B", "message": "alırım tabi bitter mi olsun sütlü mü?"},
+      {"sender": "Kişi_A", "message": "sütlü olsun fıstıklı falan varsa o da uyar."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Olur, hallediyorum."
+    },
+    "label": "neutral",
+    "sub_indicators": ["pozitif_kisa_yanitlar"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "yarınki buluşma için saat 3 gibi anlaştık grupta uyar mı sana da?"},
+      {"sender": "Kişi_A", "message": "uygun benim için, işlerimi halletmiş olurum o saate kadar."},
+      {"sender": "Kişi_B", "message": "iyi bari, meydandaki saatin orda buluşuruz."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Anlaştık 👍"
+    },
+    "label": "neutral",
+    "sub_indicators": ["pozitif_kisa_yanitlar"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "oğlum gelirken çöpleri de atıver kapının önünden."},
+      {"sender": "Kişi_B", "message": "atayım anne, poşetleri bağladın mı?"},
+      {"sender": "Kişi_A", "message": "bağladım sağlam hepsi."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Tamamdır alıyorum şimdi."
+    },
+    "label": "neutral",
+    "sub_indicators": ["pozitif_kisa_yanitlar"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "şu yeni açılan dönerci baya iyi diyorlar öğlen oraya mı gitsek?"},
+      {"sender": "Kişi_A", "message": "olabilir aslında ben de merak ediyordum epeydir."},
+      {"sender": "Kişi_B", "message": "12 buçuk gibi çıkarız o zaman şirketten."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Olur, uyar bana."
+    },
+    "label": "neutral",
+    "sub_indicators": ["pozitif_kisa_yanitlar"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "bugün ofiste o kadar çok yoruldum ki ayaklarımı hissetmiyorum resmen."},
+      {"sender": "Kişi_B", "message": "kıyamam sana, yoğun bi gündü herhalde?"},
+      {"sender": "Kişi_A", "message": "sorma sabahtan beri ayaktaydım bir sürü iş kitlediler."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Eve gidince sıcak bir duş alıp dinlen hemen, iş stresi gerçekten yorucu oluyor."
+    },
+    "label": "neutral",
+    "sub_indicators": ["normal_sikayet_paylasim"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "dışarısı inanılmaz soğuk dondum otobüs beklerken ya."},
+      {"sender": "Kişi_A", "message": "ben sana kalın giyin demiştim sabah dinlemedin beni."},
+      {"sender": "Kişi_B", "message": "güneş var diye aldandım işte valla hasta olmasam bari."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Havalar çok aldatıcı bu ara, eve geçince ıhlamur falan iç içini ısıtsın."
+    },
+    "label": "neutral",
+    "sub_indicators": ["normal_sikayet_paylasim"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "gece sabaha kadar gözüme uyku girmedi kahveyle duruyorum şu an."},
+      {"sender": "Kişi_B", "message": "hayırdır stres falan mı yaptın bir şeye?"},
+      {"sender": "Kişi_A", "message": "yok ya kafamda deli sorular döndü durdu nedensizce."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Bazen oluyor öyle uykusuzluk nöbetleri, bugün erken yatmaya çalış bari."
+    },
+    "label": "neutral",
+    "sub_indicators": ["normal_sikayet_paylasim"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "yine aynı yolda trafik kilitlendi sabahtan beri adım adım ilerliyoruz."},
+      {"sender": "Kişi_A", "message": "o yolun çilesi hiç bitmiyor ki, her sabah aynı eziyet."},
+      {"sender": "Kişi_B", "message": "valla metroya geçicem yakında dayanamıyorum artık bu strese."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "En mantıklısı kanka, sabah sabah insanın tüm enerjisini emiyor o trafik."
+    },
+    "label": "neutral",
+    "sub_indicators": ["normal_sikayet_paylasim"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "bütün gün evi temizledim camları falan sildim belim koptu valla."},
+      {"sender": "Kişi_B", "message": "ellerine sağlık anne niye o kadar yordun kendini birden?"},
+      {"sender": "Kişi_A", "message": "bayram temizliği aradan çıksın dedim de pestilim çıktı."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Çok yüklenmişsin kendine, akşam yemeği yapma bari ben gelirken bir şeyler alırım."
+    },
+    "label": "neutral",
+    "sub_indicators": ["normal_sikayet_paylasim"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "sabahtan beri çok fena başım ağrıyor hap falan içtim geçmedi."},
+      {"sender": "Kişi_A", "message": "migrenin mi tuttu yine havalardan falan mı tetiklendi acaba?"},
+      {"sender": "Kişi_B", "message": "olabilir ekran başında fazla kalmak da etkiledi galiba."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Gözlerini dinlendir biraz karanlık odada uzan istersen, çok geçmiş olsun."
+    },
+    "label": "neutral",
+    "sub_indicators": ["normal_sikayet_paylasim"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "bugün bana çok destek oldun o zor anımda, ne diyeceğimi bilemiyorum."},
+      {"sender": "Kişi_B", "message": "saçmalama aşkım her zaman yanındayım senin iyi günde kötü günde."},
+      {"sender": "Kişi_A", "message": "gerçekten o kadar kıymetlisin ki benim için."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Sen de benim için öylesin, iyi ki hayatımdasın seni çok seviyorum."
+    },
+    "label": "neutral",
+    "sub_indicators": ["saglikli_sevgi_ifadeleri"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "kanka notları benimle paylaştığın için çok sağol valla hayat kurtardın."},
+      {"sender": "Kişi_A", "message": "ne demek kardeşim lafı mı olur aramızda, sen de bana yardım etmiştin geçen."},
+      {"sender": "Kişi_B", "message": "adamsın valla sınavdan sonra yemekler benden."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Hahaha canımsın, hallederiz yemeği bol şans çalışırken."
+    },
+    "label": "neutral",
+    "sub_indicators": ["saglikli_sevgi_ifadeleri"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "baksana profil fotoğrafımı değiştirdim nasıl olmuş sence?"},
+      {"sender": "Kişi_B", "message": "ayy çok güzel çıkmışsın orda gülüşüne bayıldım."},
+      {"sender": "Kişi_A", "message": "ya canımsın teşekkür ederim utandırdın :)"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Seni yerim, gerçekten çok tatlı çıkmışsın hiç değiştirme bence."
+    },
+    "label": "neutral",
+    "sub_indicators": ["saglikli_sevgi_ifadeleri"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "anne sana gelirken en sevdiğin çiçeklerden aldım akşam görüşürüz."},
+      {"sender": "Kişi_A", "message": "ay güzel kızım benim ne gerek vardı zahmet ettin."},
+      {"sender": "Kişi_B", "message": "içimden geldi annecim hak ediyorsun sen her şeyin en güzelini."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Annem benim, canım kızım çok teşekkür ederim akşam dört gözle bekliyorum seni."
+    },
+    "label": "neutral",
+    "sub_indicators": ["saglikli_sevgi_ifadeleri"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "abi benim laptoptaki sorunu çözdüğün için çok teşekkürler adamsın."},
+      {"sender": "Kişi_B", "message": "önemsiz bişeydi abicim hallettik işte işini görsün yeter."},
+      {"sender": "Kişi_A", "message": "valla sen olmasan tamirciye bir sürü para bayılcaktım."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Kardeşlik bugünler için var, bir sıkıntı olursa yine söylersin çekinme."
+    },
+    "label": "neutral",
+    "sub_indicators": ["saglikli_sevgi_ifadeleri"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "baba ehliyet sınavını ilk seferde geçtim sonunda!"},
+      {"sender": "Kişi_A", "message": "aslan oğlum benim tebrik ederim, biliyordum yapacağını."},
+      {"sender": "Kişi_B", "message": "stres yaptım biraz ama sen sakin ol demiştin işe yaradı valla."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Seninle her zaman gurur duyuyorum oğlum, akşam gelince kutlarız bunu."
+    },
+    "label": "neutral",
+    "sub_indicators": ["saglikli_sevgi_ifadeleri"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "hafta sonu için hiç planımız yok epeydir dışarı da çıkmadık."},
+      {"sender": "Kişi_B", "message": "evet ya şöyle güzel bir kahvaltıcıya gitsek pazar sabahı fena olmaz."},
+      {"sender": "Kişi_A", "message": "boğaz tarafında güzel bir yer biliyorum ben manzarası da çok iyi."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Harika olur, o zaman pazar sabahına planlayalım rezervasyon falan gerekiyorsa ararız."
+    },
+    "label": "neutral",
+    "sub_indicators": ["plan_yapma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "şu uzun zamandır beklediğimiz vizyona giren filme gidelim mi bu akşam?"},
+      {"sender": "Kişi_A", "message": "olur valla işten çıkınca geçeriz AVM'ye, seans saatlerine baktın mı?"},
+      {"sender": "Kişi_B", "message": "8 ve 10 seansları var 8'e yetişebilir miyiz sence?"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Yetişiriz bence, ben şimdiden alıyorum biletleri o zaman orta sıralardan."
+    },
+    "label": "neutral",
+    "sub_indicators": ["plan_yapma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "yaz tatili için erken rezervasyonlar başlamış fiyatlar artmadan baksak mı?"},
+      {"sender": "Kişi_B", "message": "olabilir nereye gitmek istiyorsun ege tarafı falan mı?"},
+      {"sender": "Kişi_A", "message": "fethiye ya da kaş çok güzel olur aslında biraz sakinlik arıyorum."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Tamam akşam discorda gelince beraber otellere bakar karar veririz birine."
+    },
+    "label": "neutral",
+    "sub_indicators": ["plan_yapma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "akşam yemekten sonra sahile inip biraz yürüyüş mü yapsak hava çok güzel."},
+      {"sender": "Kişi_A", "message": "olur dondurma falan da yeriz hem biraz hareket etmiş oluruz."},
+      {"sender": "Kişi_B", "message": "aynen iyi fikir, 8 gibi çıkarız evden o zaman."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Tamamdır, ben de o saate kadar işlerimi toparlarım rahat çıkarız."
+    },
+    "label": "neutral",
+    "sub_indicators": ["plan_yapma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "annemin doğum gününe az kaldı ne hediye alıcaz hiç konuştuk mu bunu?"},
+      {"sender": "Kişi_B", "message": "benim aklımda güzel bir çanta almak vardı, geçen vitrinde beğenmişti."},
+      {"sender": "Kişi_A", "message": "mantıklı aslında, ikimiz ortak girer alırsak daha kaliteli bir şey alırız."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Süper olur abla, yarın iş çıkışı o mağazaya gidip beraber bakalım o zaman."
+    },
+    "label": "neutral",
+    "sub_indicators": ["plan_yapma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "bu cuma barış'ın doğum günü ufak bi sürpriz kutlama mı yapsak?"},
+      {"sender": "Kişi_A", "message": "yapalım tabi, bizim favori kafede toplanalım bir pasta alıp."},
+      {"sender": "Kişi_B", "message": "kimleri çağıralım listeyi oluşturup ona göre haber verelim herkese."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Yakın çevreyi gruba ekleyelim akşam detayları oradan konuşuruz pastayı falan ayarlarız."
+    },
+    "label": "neutral",
+    "sub_indicators": ["plan_yapma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "bugün çok fena grip olmuşum yataktan çıkamıyorum her yerim dökülüyor."},
+      {"sender": "Kişi_B", "message": "oyy çok geçmiş olsun salgın var zaten herkeste, ateşim var mı peki?"},
+      {"sender": "Kişi_A", "message": "biraz ateş var ama asıl boğazım çok kötü yutkunamıyorum."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Çok geçmiş olsun canım, istersen akşam sana sıcak bir çorba yapıp getireyim iyi gelir."
+    },
+    "label": "neutral",
+    "sub_indicators": ["destek_empati"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "yarınki sınav için çok stresliyim ya bildiğim her şeyi unutmuş gibiyim."},
+      {"sender": "Kişi_A", "message": "klasik sınav öncesi stresi o, aylardır çalışıyorsun emek verdin boşa gitmez."},
+      {"sender": "Kişi_B", "message": "umarım dediğin gibi olur ama içimde bi korku var işte engel olamıyorum."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Derin nefes alıp sakinleşmeye çalış aşkım, sen elinden geleni yaptın ben sana güveniyorum."
+    },
+    "label": "neutral",
+    "sub_indicators": ["destek_empati"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "girdiğim iş görüşmesinden yine olumsuz dönüş aldım moralim sıfır şu an."},
+      {"sender": "Kişi_B", "message": "ya canını sıkma lütfen, demek ki senin için hayırlı olan yer orası değilmiş."},
+      {"sender": "Kişi_A", "message": "öyle tabi ama sürekli ret yemek insanın özgüvenini kırıyor bir noktadan sonra."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Seni çok iyi anlıyorum yorucu bir süreç ama pes etmek yok, daha iyi bir yer elbet çıkacak karşına."
+    },
+    "label": "neutral",
+    "sub_indicators": ["destek_empati"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "bugün okulda her şey üst üste geldi çok bunaldım artık ağlıcam sinirden."},
+      {"sender": "Kişi_A", "message": "kıyamam sana neler oldu ki bu kadar anlatsana dökül biraz."},
+      {"sender": "Kişi_B", "message": "hem projeler yetişmiyor hem de hoca çok yüklendi bugün bana haksız yere."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Haklısın canım zor bir gün olmuş, istersen akşam dışarı çıkalım biraz kafa dağıtırsın iyi gelir."
+    },
+    "label": "neutral",
+    "sub_indicators": ["destek_empati"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "arabayı geri çıkarken duvara sürttüm biraz canım çok sıkkın o yüzden."},
+      {"sender": "Kişi_B", "message": "cana geleceğine mala gelsin abi sıkma canını çok hasar var mı peki?"},
+      {"sender": "Kişi_A", "message": "boyası kalktı biraz kaporta da hafif göçtü ama baya sinirlendim kendime."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Olur öyle kazalar hepimizin başına geliyor, üzülme hallederiz sanayide tanıdık var yaptırırız uygun fiyata."
+    },
+    "label": "neutral",
+    "sub_indicators": ["destek_empati"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "yine kiraya zam yapıcaklarmış ev sahibi aradı moralimi bozdu sabah sabah."},
+      {"sender": "Kişi_A", "message": "ekonominin hali ortada herkes aynı dertten muzdarip, ne kadar istiyor ki?"},
+      {"sender": "Kişi_B", "message": "baya yüksek bi rakam söyledi ödemem çok zor o kadarını."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Canını sıkma kanka, orta yolu bulmaya çalışırsınız konuşup baktın olmuyor beraber daha uygun bir ev bakarız."
+    },
+    "label": "neutral",
+    "sub_indicators": ["destek_empati"]
+  }
+]
