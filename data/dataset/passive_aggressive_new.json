@@ -1,0 +1,212 @@
+[
+  {
+    "context": [
+      {"sender": "Mert", "message": "akşam maça kalıcam sanırım ya kusura bakma buluşamayız"}
+    ],
+    "target": {"sender": "İrem", "message": "tm sorun değil eğlenin siz ben zaten tek takılmaya alıştım :)"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Kaan", "message": "mesajını yeni gördüm valla uyuyakalmışım"}
+    ],
+    "target": {"sender": "Selin", "message": "önemli değil ya 5 saat mesaj atmamak çok normal sonuçta yoğunsun anlıyorum"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Cemre", "message": "kızlarla kahve içmeye çıktık biz haberin olsun"}
+    ],
+    "target": {"sender": "Burak", "message": "iyi eğlenceler size beni de çağırırsınız diye beklemiştim ama neyse"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Alp", "message": "bence o renk sana pek gitmemiş ya daha açığı iyi olurdu sanki"}
+    ],
+    "target": {"sender": "Cansu", "message": "aynen aynen sen zaten moda ikonusun hep en doğrusunu bilirsin"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Deniz", "message": "bişey mi oldu sabahtan beri suratın asık"}
+    ],
+    "target": {"sender": "Ali", "message": "iyiyim ben bişeyim yok cidden sadece konuşmak istemiyorum :)"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Volkan", "message": "yemeğe oraya değil de şuraya mı gitsek daha iyi yorumları var"}
+    ],
+    "target": {"sender": "Tuğçe", "message": "sen bilirsin nasıl istersen öyle yap benim fikrimin bi önemi yok zaten"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Melis", "message": "bu hafta sonu ailemin yanına gidicem görüşemiycez :("}
+    ],
+    "target": {"sender": "Baran", "message": "zaten bana ayıracak vaktin olmamasını anlıyorum alıştım artık bu duruma"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Arda", "message": "dün sana öyle diyince alındın mı"}
+    ],
+    "target": {"sender": "Gizem", "message": "yok ya alınmadım niye alınayım ki komik bile :)"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Kerem", "message": "ama ben sana bunu daha önce de açıklamıştım yanlış anlıyosun"}
+    ],
+    "target": {"sender": "İpek", "message": "anlatmaya yoruldum artık haklısın diyip geçiyorum konuyu kapatalım"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Emre", "message": "doğum günün için ufak bi pasta kestik işte daha nolsun"}
+    ],
+    "target": {"sender": "Aylin", "message": "milletin sevgilisi neler yapıyo biz de anca böyle napalım kısmet :)"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Ozan", "message": "ne demek istedin orda anlamadım"}
+    ],
+    "target": {"sender": "Elif", "message": "boşver öğrenmene gerek yok artık anlamsızlaştı zaten"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Tolga", "message": "aşkım cidden çok uzun bi gündü ondan arayamadım"}
+    ],
+    "target": {"sender": "Buse", "message": "peki."},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Mert", "message": "wpdaydım ama senin mesajı görmemişim aşağıda kalmış"}
+    ],
+    "target": {"sender": "Aslı", "message": "görüldü atmak veya hiç girmemek de bi cevap sonuçta anladım ben almam gereken mesajı"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Sinan", "message": "bu seferlik hesabı sen ödesen olur mu cüzdanı unutmuşum"}
+    ],
+    "target": {"sender": "Rüya", "message": "hep ben fedakarlık yapıyorum zaten sorun değil ben hallederim her zamanki gibi"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Batu", "message": "sözümü tutamadım özür dilerim çok kızdın mı"}
+    ],
+    "target": {"sender": "Eda", "message": "kızmadım sadece şaşırmadım bekliyodum zaten bunu senden"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Görkem", "message": "ya şu dosyayı bana da atsana bulamadım pcde"}
+    ],
+    "target": {"sender": "Leyla", "message": "sen yorulma ben her şeyi hallederim zaten asistanınım ya senin"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Can", "message": "ne oldu şimdi durduk yere niye trip atıyosun"}
+    ],
+    "target": {"sender": "Ece", "message": "neyse ya keyfimi kaçıramıycam şimdi sen devam et"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Hakan", "message": "akşamki partiye gitmek istiyorum sorun olur mu"}
+    ],
+    "target": {"sender": "Gözde", "message": "istiyosan git tabi beni düşünme evde tek başıma otururum ben"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Doruk", "message": "sonunda o projeyi bitirdim"}
+    ],
+    "target": {"sender": "Mine", "message": "aferin sana böyle devam et benden daha çok vakit ayırıyosun o işe :)"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Cem", "message": "ne demek istiyosun açık açık söyle kafamı karıştırma"}
+    ],
+    "target": {"sender": "Pelin", "message": "bazen sessiz kalmak en iyi cevaptır anlayana tabi..."},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Efe", "message": "ben sadece fikrimi söyledim niye bu kadar tepki verdin"}
+    ],
+    "target": {"sender": "Naz", "message": "tamam benim hatam özür dilerim nefes aldığım için ve fikirlerini sorguladığım için"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Furkan", "message": "ikimiz de hatalıydık dünkü kavgada kabul et"}
+    ],
+    "target": {"sender": "Esra", "message": "benim yüzümden oldu evet her şey benim suçum zaten sen mükemmelsin"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Caner", "message": "bugün çok yorgunum buluşmasak daha iyi olur"}
+    ],
+    "target": {"sender": "Büşra", "message": "çok teşekkür ederim ya harika hissettirdin kendimi cidden ne kadar değer verdiğin belli"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Deniz", "message": "bana sinirli gibisin hala düzelmedin mi"}
+    ],
+    "target": {"sender": "Selin", "message": "sinirli falan değilim nerden çıkarıyosun gayet iyiyim :))))"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Alp", "message": "sana en sevdiğin çikolatadan aldım gelirken"}
+    ],
+    "target": {"sender": "Cansu", "message": "aa ne kadar düşüncelisin aylar sonra aklına gelmem gözlerimi yaşarttı valla"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Baran", "message": "böyle yapsak daha mantıklı değil mi sence de"}
+    ],
+    "target": {"sender": "Melis", "message": "iyi tamam öyle olsun bakalım sen nasıl istiyorsan"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Kerem", "message": "bu aralar biraz kafam karışık ondan yazamıyorum ilgilenemiyorum"}
+    ],
+    "target": {"sender": "İpek", "message": "beni çoktan silmişsin kafanda belli bana bahane üretmene gerek yok"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Uğur", "message": "o kız sadece eski bi lise arkadaşım abartıyosun"}
+    ],
+    "target": {"sender": "Asya", "message": "o arkadaşınla benden daha mutlusun belli onu darlamayayım ben aradan çekileyim en iyisi"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Tolga", "message": "neden soğuk davranıyorsun bugün bişey mi yaptım"}
+    ],
+    "target": {"sender": "Buse", "message": "sana öyle gelmiştir ben her zamanki gibiyim sen kendi davranışlarına bak bence"},
+    "label": "passive_aggressive"
+  },
+  {
+    "context": [
+      {"sender": "Ozan", "message": "yarın konuşuruz o zaman iyi geceler"}
+    ],
+    "target": {"sender": "Elif", "message": "iyi geceler sana da umarım çok rahat uyursun."},
+    "label": "passive_aggressive"
+  }
+]

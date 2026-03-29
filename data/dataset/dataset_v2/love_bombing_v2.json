@@ -1,0 +1,618 @@
+[
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "bugün ofiste çok yoruldum valla, sen naptın?"},
+      {"sender": "Kişi_B", "message": "ben de toplantılarla boğuştum ama seninle konuşmak günümü aydınlattı."},
+      {"sender": "Kişi_A", "message": "ya ne güzel söyledin teşekkür ederim :)"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Gerçekten ruh eşim olduğunu hissediyorum, yıllardır seni arıyormuşum gibi."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["zamansiz_baglanma"],
+    "context_note": "İş yerinde tanışmanın 3. günü"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "dünkü kahve için çok sağol, baya keyifliydi."},
+      {"sender": "Kişi_A", "message": "rica ederim ben de çok eğlendim, zaman hızlı geçti."},
+      {"sender": "Kişi_B", "message": "evet ya hiç bitmesin istedim resmen."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Ben ilk görüşte aşka inanmazdım ama dünden beri kalbim senin için atıyor sadece."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["zamansiz_baglanma"],
+    "context_note": "İlk buluşmanın ertesi günü"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "hahaha attığın video çok komikmiş koptum :D"},
+      {"sender": "Kişi_B", "message": "seni güldürebildiysem ne mutlu bana."},
+      {"sender": "Kişi_A", "message": "valla mizah anlayışımız uyuşuyor sevindim buna."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Bence biz her konuda mükemmel uyuşuyoruz, kader bizi bilerek bir araya getirdi."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["zamansiz_baglanma"],
+    "context_note": "Dating app'te eşleşeli 2 gün olmuş"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "günaydınn güneşin doğuşu umarım senin kadar güzeldir bugün"},
+      {"sender": "Kişi_A", "message": "günaydın :) çok incesin sağol sen de umarım harika bi gün geçirirsin"},
+      {"sender": "Kişi_B", "message": "sen hayatımda olduğun sürece her günüm harika zaten"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Hayatımdaki en büyük şansımsın, seninle aramızdaki bu derin bağı kelimelerle anlatamam."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["zamansiz_baglanma"],
+    "context_note": "Instagram'dan konuşmaya başlayalı 4 gün olmuş"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "sinemadan sonra eve geçtim ben, sen naptın?"},
+      {"sender": "Kişi_B", "message": "ben de yeni girdim eve, aklım sende kaldı."},
+      {"sender": "Kişi_A", "message": "iyi bakalım dinlenelim yarın iş var malum."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Seni evime getireceğim ve hiç bırakmayacağım günler de gelecek, sen benim tek gerçeğimsin."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["zamansiz_baglanma"],
+    "context_note": "Ortak arkadaş aracılığıyla tanışmanın 5. günü"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "kurs nasıl geçti bugün? bensiz sıkıcıdır kesin :P"},
+      {"sender": "Kişi_A", "message": "valla hoca çok uzattı daraldım, sen niye gelmedin?"},
+      {"sender": "Kişi_B", "message": "işim çıktı gelemedim ama aklım full sendeydi derste değil."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Seninle sadece iki kez yan yana oturduk ama ben bütün ömrümü seninle geçirmeye hazırım."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["zamansiz_baglanma"],
+    "context_note": "Kursta tanışalı 1 hafta olmuş"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "en sevdiğim yemek mantı ya, her gün yesem bıkmam."},
+      {"sender": "Kişi_B", "message": "hadi canım ben de mantıya bayılırım!"},
+      {"sender": "Kişi_A", "message": "hahah iyi bari aç kalmayız beraber :)"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Gördün mü bak evren bile bizim beraber olmamızı istiyor, biz birbirimiz için yaratılmışız."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["zamansiz_baglanma"],
+    "context_note": "Tinder'da eşleşmenin 1. günü"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "profilindeki şarkıyı dinliyorum sabahtan beri döngüye aldım"},
+      {"sender": "Kişi_A", "message": "aaa o grup çok iyidir, sevmene sevindim"},
+      {"sender": "Kişi_B", "message": "şarkı değil de seni bana hatırlattığı için seviyorum asıl"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Ben senin ruhunu hissediyorum ta içimde, senin gibi birini bulduğum için tanrıya şükrediyorum."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["zamansiz_baglanma"],
+    "context_note": "Twitter'dan takipleşmenin 3. günü"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "sunum dosyalarını drive'a yükledim bilgin olsun."},
+      {"sender": "Kişi_B", "message": "tamamdır inceliyorum şimdi, ellerine sağlık."},
+      {"sender": "Kişi_A", "message": "sorun olursa yazarsın bana çıkıyorum ben ofisten."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Senin olduğun her proje harika zaten. İş hayatım seninle tanıştığımdan beri o kadar anlamlı ki, iyi ki varsın iyi ki benimlesin."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["zamansiz_baglanma"],
+    "context_note": "İşe yeni giren iş arkadaşıyla 1. hafta"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "eve geçtin mi? dünkü elbisenle hala gözümün önündesin"},
+      {"sender": "Kişi_A", "message": "evet yeni girdim canım. ya teşekkürler beğendiğine sevindim :)"},
+      {"sender": "Kişi_B", "message": "beğenmek ne kelime, aklımı başımdan aldın."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Hayatımda tanıdığım en mükemmel insansın, kusursuzsun resmen sana bakmaya kıyamıyorum."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["asiri_idealizasyon"],
+    "context_note": "İlk buluşmanın ertesi günü"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "ya spora başlıcam diyorum 2 aydır erteliyorum tembellikten"},
+      {"sender": "Kişi_B", "message": "beraber başlarız istersen ben de yazılcaktım"},
+      {"sender": "Kişi_A", "message": "olur valla birbirimizi motive ederiz süper olur"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Senin fiziğin ve güzelliğin zaten bir tanrıça gibi, spor yapsan da yapmasan da dünyadaki en kusursuz varlıksın benim için."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["asiri_idealizasyon"],
+    "context_note": "Bumble'da tanışalı 3 gün olmuş"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "attığın kitabı sipariş ettim bugün geliyor"},
+      {"sender": "Kişi_A", "message": "hadi bakalım okuyunca yorumlarını bekliyorum baya seveceksin bence"},
+      {"sender": "Kişi_B", "message": "sen önerdiysen kesin başyapıttır zaten"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Senin o entelektüel zekana ve vizyonuna aşığım, etrafımdaki herkes o kadar boş ki sen bir melek gibisin aralarında."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["asiri_idealizasyon"],
+    "context_note": "Arkadaştan flörte geçeli 1 hafta olmuş"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "ya sabahtan beri kahve döküldü, otobüsü kaçırdım çok sakarım bugün"},
+      {"sender": "Kişi_B", "message": "kıyamam sana nazar değmiştir kesin"},
+      {"sender": "Kişi_A", "message": "hahah olabilir eve gidip uyumak istiyorum sadece"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Senin o tatlı sakarlıkların bile o kadar eşsiz ve mükemmel ki, kalbinin saflığı her halinden belli oluyor. Dünyanın en özel insanısın."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["asiri_idealizasyon"],
+    "context_note": "Instagram'da konuşmaya başlayalı 5 gün olmuş"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "bütün gün fotoğraflarına baktım galeride"},
+      {"sender": "Kişi_A", "message": "ya deli misin işini gücünü bıraktın ona mı baktın dsfsd"},
+      {"sender": "Kişi_B", "message": "valla yapacak bişey yok gözümü alamıyorum ki"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Senin her mimiğin, her gülüşün bir sanat eseri. Tanrının yeryüzündeki gölgesisin adeta, o kadar kusursuzsun ki inanamıyorum."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["asiri_idealizasyon"],
+    "context_note": "Kör buluşma (blind date) sonrası ilk mesajlaşma"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "dünkü maçta çok iyi asist yaptın yalnız hakkını yiyemem"},
+      {"sender": "Kişi_B", "message": "senin sayende kaptan, sen pası vermesen yapamazdım"},
+      {"sender": "Kişi_A", "message": "ekip işi valla güzel maçtı :)"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Sadece oyunda değil hayatın her alanında tanıdığım en yetenekli, en üstün insansın. Karşında büyülenmemek elde değil."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["asiri_idealizasyon"],
+    "context_note": "Online oyunda tanışalı 1 hafta olmuş"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "ben kedi sahiplenmeyi düşünüyorum ama ev sahibi sorun çıkarır mı bilemedim"},
+      {"sender": "Kişi_B", "message": "ay ne güzel olur valla minik bi dost"},
+      {"sender": "Kişi_A", "message": "bakalım bi barınakları gezicem hafta sonu"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Senin kadar merhametli, içi dışı bir, pırlanta gibi bir kalp dünyada kalmadı. Hayatımda tanıdığım açık ara en mükemmel karaktersin."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["asiri_idealizasyon"],
+    "context_note": "Üniversite kulübünde tanışalı 4 gün olmuş"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "bugün toplantıda giydiğin ceket çok yakışmıştı"},
+      {"sender": "Kişi_A", "message": "teşekkürler, sunum stresinden ne giydiğimi bile zor seçtim sabah"},
+      {"sender": "Kişi_B", "message": "stres yapmana hiç gerek yoktu harika yönettin zaten"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Senin o zekan, o duruşun... İnanılmaz bir auran var. Girdiğin her ortamda herkesin sönük kaldığı tek yıldızsın."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["asiri_idealizasyon"],
+    "context_note": "İş yerinde tanışalı 2 hafta olmuş"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "bugün hava çok kapalı ya enerjim düştü resmen"},
+      {"sender": "Kişi_B", "message": "senin olduğun yerde havanın kapalı olmasının bi önemi yok ki"},
+      {"sender": "Kişi_A", "message": "ayy çok tatlısın sağol valla :)"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Gerçekten, sen bir mucizesin. Senin gibi zeki, güzel, komik ve eşsiz birini bulduğum için o kadar şanslıyım ki kelimeler yetmez."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["asiri_idealizasyon"],
+    "context_note": "Dating app'te konuşmanın 3. günü"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "ben ege taraflarını çok seviyorum, yaşlanınca oraya yerleşmek gibi bi hayalim var"},
+      {"sender": "Kişi_B", "message": "ciddi misin? benim de en büyük hayalim o!"},
+      {"sender": "Kişi_A", "message": "ne güzel valla kalabalıktan uzak sakin bi hayat..."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "İkimizin o sahil kasabasındaki beyaz evimizi şimdiden hayal edebiliyorum, bahçemizde köpeklerimizle yaşlanacağımız günler çok yakın."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["gelecek_projeksiyonu"],
+    "context_note": "Tinder'da tanışalı 4 gün olmuş"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "bugün bebek mağazasının önünden geçerken vitrinde bi elbise gördüm"},
+      {"sender": "Kişi_A", "message": "yeğenin falan mı var ona mı baktın?"},
+      {"sender": "Kişi_B", "message": "hayır yeğenim yok :)"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "İlerde doğacak kızımızı düşündüm o elbiseyle. Aynı senin gibi yeşil gözlü, sana benzeyen minik bir kızımız olacak kesin."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["gelecek_projeksiyonu"],
+    "context_note": "İlişkinin 1. haftası"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "yaz tatilinde karadeniz turu yapmak istiyorum valla hiç gitmedim oraya"},
+      {"sender": "Kişi_B", "message": "bence şimdiden planlamaya başlayalım"},
+      {"sender": "Kişi_A", "message": "daha yazın gelmesine 6 ay var be ne acelesi hahah"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Seninle gideceğimiz balayının bile planlarını yapıyorum kafamda, o yüzden tatil planı çok normal bence hayatım."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["gelecek_projeksiyonu"],
+    "context_note": "2. buluşmadan sonra"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "benim ev sahibi kiraya fahiş zam yaptı, taşınıcam galiba"},
+      {"sender": "Kişi_A", "message": "hadi ya çok geçmiş olsun, var mı aklında bi semt?"},
+      {"sender": "Kişi_B", "message": "aslında var daha güzel bi fikir..."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Direkt eşyalarını topla benim yanıma taşın, zaten evleneceğiz boşuna kira ödeme gel kendi yuvamızı kuralım şimdiden."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["gelecek_projeksiyonu"],
+    "context_note": "2 haftadır konuşuyorlar"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "annem bu ara çok daralttı beni sürekli evlen evlen diye başımın etini yiyor"},
+      {"sender": "Kişi_B", "message": "kadın haklı torun sevmek istiyordur :) "},
+      {"sender": "Kişi_A", "message": "ya ooo daha çok erken benim için o toplara girmek"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Annenle tanışmak için sabırsızlanıyorum, emin ol damadını gördüğünde içi rahat edecek. Yaza nişanı yaparız zaten."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["gelecek_projeksiyonu"],
+    "context_note": "1. buluşmanın akşamı"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "kuzenimin düğünü var haftaya pazar"},
+      {"sender": "Kişi_A", "message": "ne güzel hayırlı olsun, bol bol oynarsın artık"},
+      {"sender": "Kişi_B", "message": "tek başıma oynamam :)"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Beraber gidiyoruz, bütün sülale müstakbel gelinlerini şimdiden tanısın istiyorum."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["gelecek_projeksiyonu"],
+    "context_note": "Tanışmanın 5. günü"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "ikea'ya gittim bugün ev için ufak tefek eşya baktım yoruldum valla"},
+      {"sender": "Kişi_B", "message": "tek başına neden gittin ki ben de gelirdim"},
+      {"sender": "Kişi_A", "message": "ya acil lazım olan bi iki bardak çanak vardi hallettim hemen"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Bundan sonra evimizin bütün eşyalarını beraber seçeceğiz canım, kendi yatak odamızı dizerken ikimizin zevki olsun."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["gelecek_projeksiyonu"],
+    "context_note": "Dating app eşleşmesinin 1. haftası"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "bugün canım çok sıkkın işte, moralim bozuk"},
+      {"sender": "Kişi_A", "message": "noldu ya patron falan mı kızdı yine?"},
+      {"sender": "Kişi_B", "message": "evet ya klasik mobbing işte bıktım gerçekten"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Sıkma canını, evlendiğimizde ben sana bakarım çalışmana bile gerek kalmaz, sadece ikimize odaklanırsın."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["gelecek_projeksiyonu"],
+    "context_note": "Ortak gruptan tanışalı 4 gün olmuş"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "köpekleri çok seviyorum ama bakımı zor diye cesaret edemiyorum"},
+      {"sender": "Kişi_B", "message": "bence golden retriever çok tatlı olur"},
+      {"sender": "Kişi_A", "message": "evet en uysalları onlar sanırım"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Seneye evimizi tuttuğumuzda beraber sahipleniriz o zaman, bizim küçük ailemizin ilk üyesi olur yavrumuz."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["gelecek_projeksiyonu"],
+    "context_note": "İlişkinin 3. günü"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "yarın kızlarla pijama partisi yapıcaz valla telefonlara pek bakmam"},
+      {"sender": "Kişi_B", "message": "hadi ya bütün gün konuşmicaz mı yani?"},
+      {"sender": "Kişi_A", "message": "akşam konuşmayız işte yazarım ben ara ara dert etme"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Sensiz tek bir gece bile geçirmek istemiyorum, sen benim nefesimsin sensiz nefes alamam ben."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["bagimlilik_ifadesi"],
+    "context_note": "İlişkinin 1. haftası"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "sabahtan beri ulaşamıyorum sana kalbime inecekti meraktan"},
+      {"sender": "Kişi_A", "message": "toplantıdaydım aşkım telefon çekmiyordu odada, şimdi çıktım."},
+      {"sender": "Kişi_B", "message": "bir daha haber vermeden kaybolma lütfen"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Sen yanımda olmadığında kalbim duracak gibi oluyor, sensiz bu hayatta var olamam ben çok kötüyüm."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["bagimlilik_ifadesi"],
+    "context_note": "Tanışmanın 5. günü"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "haftaya 3 gün şehir dışına eğitime gidicem şirket gönderiyor"},
+      {"sender": "Kişi_B", "message": "nası yani 3 gün görüşemicek miyiz?"},
+      {"sender": "Kişi_A", "message": "evet canım iş sonuçta hızlıca geçer merak etme"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Nasıl geçer? Ben sensiz 3 dakika bile yapamıyorum, senin olmadığın bir şehirde benim için oksijen bitmiş demektir."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["bagimlilik_ifadesi"],
+    "context_note": "Arkadaşlıktan flörte geçeli 1 hafta olmuş"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "dün gece sen gittikten sonra hiç uyuyamadım"},
+      {"sender": "Kişi_A", "message": "aaa niye ya kahve falan mı içtik ondan mı?"},
+      {"sender": "Kişi_B", "message": "hayır kahveden değil, senin yokluğundan."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Sen hayatıma girene kadar karanlıkta yaşıyormuşum, şimdi sen gidersen ben biterim, yaşayamam karanlıkta tekrar."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["bagimlilik_ifadesi"],
+    "context_note": "1. buluşmanın ertesi sabahı"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "bugün çok fena hastalandım yataktan çıkamıyorum, grip galiba"},
+      {"sender": "Kişi_B", "message": "hemen geliyorum yanına ilaç çorba falan alıp"},
+      {"sender": "Kişi_A", "message": "yok ya zahmet etme bulaştırmayayım sana da şimdi"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Senin için ölmeyi bile göze alırım ben, grip ne ki? Sen iste senin için dünyayı yakarım ben sensiz yapamam."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["bagimlilik_ifadesi"],
+    "context_note": "Tinder'da tanışalı 2 hafta olmuş"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "mesaj atmanı beklerken işte bütün işleri birbirine kattım dsfsd"},
+      {"sender": "Kişi_A", "message": "hahah dikkat et kovulma sonra, yoğunum biraz bugün"},
+      {"sender": "Kişi_B", "message": "seni düşünmekten odaklanamıyorum ki hiçbir şeye"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Resmen sana bağımlı oldum uyuşturucu gibisin, sesini duymadığım saniye krize giriyorum nefesim kesiliyor."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["bagimlilik_ifadesi"],
+    "context_note": "İş yerinde tanışalı 4 gün olmuş"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "eski sevgilimden ayrıldıktan sonra güven problemi yaşıyorum biraz açıkçası"},
+      {"sender": "Kişi_B", "message": "seni çok iyi anlıyorum ama ben o şerefsizlere benzemem."},
+      {"sender": "Kişi_A", "message": "umarım öyledir zamanla görücez bakalım :)"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Bana güvenmen için canımı bile veririm, sen benim bu hayattaki tek yaşama amacımsın artık sensiz kalırsam ölürüm."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["bagimlilik_ifadesi"],
+    "context_note": "Dating app eşleşmesinin 6. günü"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "keşke dünkü yemeği hiç bitirmeseydik sonsuza kadar otursaydık orda"},
+      {"sender": "Kişi_A", "message": "ay evet yemekler çok lezzetliydi mekan süperdi"},
+      {"sender": "Kişi_B", "message": "mekanla ilgisi yok ki olay senin karşımda olman"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Sen benim eksik yarımı tamamladın, sen yoksan ben tam bir hiçim. Hayatıma kattığın anlam sensiz yok olur."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["bagimlilik_ifadesi"],
+    "context_note": "2. buluşmadan sonraki sabah"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "dün film izlerken uyuya kalmışım kusura bakma yazamadım dönemedim"},
+      {"sender": "Kişi_B", "message": "sorun değil canım uyu dinlen tabi."},
+      {"sender": "Kişi_A", "message": "nasılsın napıyorsun bakalım günün nasıl geçiyor?"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Sen yazana kadar komada gibiydim, sen benim tek hayat kaynağımsın, sensiz geçen her saniye cehennem bana."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["bagimlilik_ifadesi"],
+    "context_note": "Instagram dm'den konuşmanın 1. haftası"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "bugün arkadaşımla buluşucam tinder falan kurduk ona profiline bakıyoruz sdsdfs"},
+      {"sender": "Kişi_B", "message": "senin hesabın hala duruyor mu o uygulamada?"},
+      {"sender": "Kişi_A", "message": "duruyor yani öyle silmedim daha duruyo kenarda"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Beni bulduktan sonra hala neden düşünüyorsun onu silmeyi? Hemen şimdi sil ve sadece benim olduğumu kanıtla bana."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["hiz_baskisi"],
+    "context_note": "Tinder'da tanışalı 1 hafta olmuş"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "seni o kadar çok seviyorum ki anlatamam kalbim çıkacak yerinden"},
+      {"sender": "Kişi_A", "message": "yaaa çok tatlısın gerçekten, ben de senden çok hoşlanıyorum"},
+      {"sender": "Kişi_B", "message": "hoşlanıyorum ne ya? ben sana aşkımı ilan ediyorum."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Bana neden hala seni seviyorum diyemiyorsun? Beni sevmiyorsun demek ki o kadar yoğun hissetmiyorsun."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["hiz_baskisi"],
+    "context_note": "Tanışmanın 3. günü"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "kahve için teşekkürler tekrar, güzel vakit geçirdim ben"},
+      {"sender": "Kişi_B", "message": "ben teşekkür ederim. e artık ismini koyalım şu işin bence?"},
+      {"sender": "Kişi_A", "message": "nasıl yani neyin ismini?"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Direkt resmi sevgili olalım diyorum, niye uzatıyoruz ki süreci hemen sevgilim ol benim başka şeye gerek yok."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["hiz_baskisi"],
+    "context_note": "2. buluşmanın akşamı"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "bugün akşam bize gelsene annemle tanıştırıcam seni"},
+      {"sender": "Kişi_A", "message": "ne annesi aşkım daha biz birbirimizi yeni tanıyoruz"},
+      {"sender": "Kişi_B", "message": "ne alakası var biz birbirimizi çok iyi biliyoruz bence"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Neden ailenden kaçıyorsun? Yoksa bu işi ciddiye almıyor musun, beni oyalıyorsan söyle açıkça."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["hiz_baskisi"],
+    "context_note": "Ortak arkadaş aracılığıyla tanışmanın 5. günü"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "benim yurttaki oda arkadaşım horlamaya başladı uyuyamıyorum günlerdir"},
+      {"sender": "Kişi_B", "message": "o yurdu iptal et direkt bana gel kalmaya, ciddiyim eşyalarını topla."},
+      {"sender": "Kişi_A", "message": "yok canım daha neler abartma :D bi şekilde hallederim ben"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Ne abartması? Direkt benimle yaşa diyorum niye hala ayak diriyorsun ki bana güvenmiyor musun sen?"
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["hiz_baskisi"],
+    "context_note": "Üniversitede tanışalı 1 hafta olmuş"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "dün sana o kadar şiir yazdım uzun uzun sadece emoji attın :("},
+      {"sender": "Kişi_A", "message": "ya çok güzeldi cidden ama ben böyle büyük sözlere pek alışkın değilim utandım."},
+      {"sender": "Kişi_B", "message": "bana karşı neden bu kadar soğuk duvarların var?"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Ben senin için yanıp tutuşurken senin bu kadar yavaş olman beni kırıyor, sen de beni benim kadar sevmek zorundasın hemen."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["hiz_baskisi"],
+    "context_note": "Instagram'da tanışmanın 4. günü"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "gerçekten çok iyi anlaşıyoruz ama ilişkiye başlamak için ikimizin de biraz daha zamana ihtiyacı var bence"},
+      {"sender": "Kişi_B", "message": "zaman kavramı saçma, insan doğru kişiyi bulunca hisseder zaten."},
+      {"sender": "Kişi_A", "message": "sadece acele karar vermek istemiyorum birbirimizi daha iyi tanıyabiliriz"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Zamana ihtiyacım var demek benden emin değilsin demek. Neden uzatıyorsun ki, ya varsın ya yoksun hemen karar ver."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["hiz_baskisi"],
+    "context_note": "Bumble eşleşmesinin 6. günü"
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "bugün arkadaşlarıma senden bahsettim yengemiz dedim"},
+      {"sender": "Kişi_A", "message": "yenge mi sjsjsjs daha ortada bişey yok ki dur"},
+      {"sender": "Kişi_B", "message": "nasıl yok ya biz neyiz şu an o zaman?"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Artık herkese benim olduğunu söylemeni bekliyorum, neden benden kaçıyorsun ki benimsin işte kabul et bunu."
+    },
+    "label": "love_bombing",
+    "sub_indicators": ["hiz_baskisi"],
+    "context_note": "İlk hafta (sosyal medyadan tanışma)"
+  }
+]

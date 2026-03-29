@@ -1,0 +1,241 @@
+[
+  {
+    "context": [
+      {"sender": "Zeynep", "message": "dün yanındaki kız kimdi kanka yalan söyledin bana evdeyim diye"}
+    ],
+    "target": {"sender": "Kaan", "message": "ne kızı oğlum kafanda kuruyosun iyice paranoyak oldun sen"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Emre", "message": "kızım partideki o çocuğa niye numaranı verdin"},
+      {"sender": "Aylin", "message": "vermedim saçmalama"}
+    ],
+    "target": {"sender": "Emre", "message": "yanındaydım kızım ben o an, sen kendi yaptıklarını bile hatırlamıyorsun artık harbi korkutucu bi hal almaya başladı bu durum"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Selin", "message": "dün geceki lafın çok kırıcıydı harbi"},
+      {"sender": "Selin", "message": "bütün gece uyuyamadım"}
+    ],
+    "target": {"sender": "Deniz", "message": "alt tarafı bi şaka yaptık amma büyüttün sen de her şeye alınıyosun"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Burak", "message": "dün akşam konuşuruz demiştin aramadın"},
+      {"sender": "Cemre", "message": "ben öyle bi söz vermedim ki"}
+    ],
+    "target": {"sender": "Burak", "message": "ben sana arayacağım demedim sen ararsın diye konuştuk, yine kendi kendine sözler uydurup beni suçluyorsun"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Mert", "message": "neden eski sevgilinle hala takipleşiyosun?"},
+      {"sender": "Aslı", "message": "takipleşmiyorum çıkardım aylar önce"}
+    ],
+    "target": {"sender": "Mert", "message": "sen beni salak mı sanıyosun dün gördüm listende, kendi yalanlarına kendin inanmaya başlamışsın"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Buse", "message": "hesabı ortak öderiz demiştik sen hiç elini cebine atmadın"},
+      {"sender": "Tolga", "message": "ben mi atmadım?"}
+    ],
+    "target": {"sender": "Tolga", "message": "kızım ben cüzdanı çıkardım sen ben öderim diye atladın, olayları hep işine geldiği gibi hatırlıyosun"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Ozan", "message": "bütün gün mesajlarıma dönmedin story atıyosun ama"},
+      {"sender": "Elif", "message": "görmemişim ya wp bozuk bu aralar"}
+    ],
+    "target": {"sender": "Ozan", "message": "wp falan bozuk değil bilerek yapıyosun sonra da üste çıkıyosun hep aynı taktik"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Gizem", "message": "dün bana bağırdığında herkes bize baktı çok utandım"},
+      {"sender": "Arda", "message": "ben bağırmadım ki"}
+    ],
+    "target": {"sender": "Arda", "message": "ses tonum normaldi sen kendi kendine kriz geçirdiğin için herkes bize baktı bence bi psikoloğa görün"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Kerem", "message": "benimle hiç ilgilenmiyosun son zamanlarda"},
+      {"sender": "İpek", "message": "nasıl ilgilenmiyorum her gün konuşuyoruz"}
+    ],
+    "target": {"sender": "Kerem", "message": "konuşmak ilgi mi sence? sen olayın farkında bile değilsin hep mağduru oynamaktan gerçekleri göremiyosun"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Rüya", "message": "geçen günkü buluşmayı iptal etmen çok ayıp oldu"},
+      {"sender": "Rüya", "message": "hazırlanmıştım o kadar"}
+    ],
+    "target": {"sender": "Sinan", "message": "ben iptal etmedim ki 'belki buluşuruz' demiştim sen kesin diye anlamışsın sorun bende değil senin algında"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Cansu", "message": "telefondaki o mesajlar neydi alp?"},
+      {"sender": "Alp", "message": "hangi mesajlar ya"}
+    ],
+    "target": {"sender": "Alp", "message": "kızım sen hastasın yemin ederim olmayan şeyleri görüp olay çıkarıyosun tedavi ol"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Melis", "message": "bana yalan söyledin oraya gitmedin biliyorum"},
+      {"sender": "Baran", "message": "yalan falan söylemedim"}
+    ],
+    "target": {"sender": "Baran", "message": "sen o kadar anlayışsız ve toksik birisin ki sana doğruyu söylesem olay çıkaracaktın beni yalan söylemeye sen zorladın"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Tuğçe", "message": "doğum günümü unuttun inanamıyorum sana"},
+      {"sender": "Volkan", "message": "unutmadım ki haftaya kutlarız demiştim"}
+    ],
+    "target": {"sender": "Tuğçe", "message": "hiç öyle bişey demedin uydurma bari ya"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Leyla", "message": "bardağımı kırmışsın neden söylemedin"},
+      {"sender": "Görkem", "message": "ben kırmadım"}
+    ],
+    "target": {"sender": "Görkem", "message": "sen onu hep masanın ucuna koyuyosun kendi düşmüştür yine beni suçlamaya yer arıyosun"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Naz", "message": "annemlerin yanında bana neden ters davrandın"},
+      {"sender": "Efe", "message": "ters falan davranmadım"}
+    ],
+    "target": {"sender": "Efe", "message": "senin bu alınganlıkların yüzünden kimseyle normal konuşamaz oldum herkes benden gayet memnundu bi sen rahatsız oldun"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Berk", "message": "şifreni niye değiştirdin hani aramızda gizli yoktu"},
+      {"sender": "Su", "message": "değiştirmedim ki aynı şifre"}
+    ],
+    "target": {"sender": "Berk", "message": "girmiyor işte, sen şifreyi değiştirdiğini bile unutacak kadar kafayı yemişsin bence bi hafızanı kontrol ettir"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Asya", "message": "o kızı neden baştan aşağı süzdün?"},
+      {"sender": "Uğur", "message": "süzmedim sadece o tarafa baktım"}
+    ],
+    "target": {"sender": "Uğur", "message": "senin bu özgüven eksikliğin yüzünden yolda yürüyemez olduk iyice toksikleşmeye başladın"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Cem", "message": "1 saat beklettin beni ağaç oldum burda"},
+      {"sender": "Pelin", "message": "1 saat olmadı ki 15 dk falan geç kaldım"}
+    ],
+    "target": {"sender": "Cem", "message": "tam 1 saat oldu sen zaman algını da kaybetmişsin cidden sürekli kendi hatanı küçültmeye çalışıyosun"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Eda", "message": "dün bana çok kötü şeyler söyledin kalbim çok kırıldı"},
+      {"sender": "Batu", "message": "kötü bişey söylemedim"}
+    ],
+    "target": {"sender": "Batu", "message": "sadece dürüst oldum ama sen gerçekleri duymaya dayanamıyosun sürekli mağdur edebiyatı yapıyosun"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Mine", "message": "dalga geçmen hiç hoş değildi herkes güldü bana"},
+      {"sender": "Doruk", "message": "dalga geçmedim ki espri yaptım"}
+    ],
+    "target": {"sender": "Doruk", "message": "hiç mizah anlayışın yok her şeyi ciddiye alıp drama yaratıyosun seninle şaka da yapılmıyor artık"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Kaan", "message": "storyni benden gizlemişsin arkadaşımın hesabından gördüm"},
+      {"sender": "Selin", "message": "gizlemedim wp falan buga girmiştir"}
+    ],
+    "target": {"sender": "Selin", "message": "hem sen arkadaşlarının hesabından beni mi stalklıyosun harbi hastalıklı bi takıntın var senin"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Mert", "message": "eski sevgiline niye mesaj attın?"},
+      {"sender": "İrem", "message": "atmadım kim dedi sana onu"}
+    ],
+    "target": {"sender": "İrem", "message": "sen iyice şizofren bağladın valla olmayan şeyleri olmuş gibi anlatıp duruyosun"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Tolga", "message": "beni dün neden ektin o kadar bekledim"},
+      {"sender": "Buse", "message": "ekmedim ki haber verdim sana"}
+    ],
+    "target": {"sender": "Buse", "message": "söyledim işim çıktı diye sen dinlemediğin için unutmuşsundur kesin beni suçlamadan önce kendi hafızanı bi kontrol et"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Can", "message": "benim kartımdan niye habersiz o kadar para çektin"},
+      {"sender": "Ece", "message": "habersiz çekmedim sordum sana"}
+    ],
+    "target": {"sender": "Ece", "message": "sen kendin dedin istediğini al diye şimdi gelmiş para muhabbeti yapıyosun cidden çok cimri ve unutkansın"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Emre", "message": "gece 3te kimle çevrimiçiydin?"},
+      {"sender": "Aylin", "message": "uyuyordum ben çevrimiçi falan değildim"}
+    ],
+    "target": {"sender": "Aylin", "message": "senin bu güvensizliğin ve uykusuz kalıp beni takip etmen harbi red flag cidden psikolojik sorunların var senin"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Ali", "message": "bana o kelimeyi kullanman çok ağrıma gitti"},
+      {"sender": "Deniz", "message": "hangi kelimeyi?"}
+    ],
+    "target": {"sender": "Deniz", "message": "ben öyle bişey demedim senin bilinçaltında o var demek ki ondan öyle duymak istemişsin"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Cemre", "message": "söz vermiştin tutmadın"},
+      {"sender": "Burak", "message": "ben tutamayacağım sözler vermem"}
+    ],
+    "target": {"sender": "Burak", "message": "sen eski sevgilinle yaşadığın travmaları bana yansıtıyosun şu an bende o yok kendine gel"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Büşra", "message": "artık beni sevmediğini söyledin dün gece"},
+      {"sender": "Caner", "message": "ben öyle bişey demedim"}
+    ],
+    "target": {"sender": "Caner", "message": "sen laflarımı cımbızlayıp kendi kafana göre drama yaratıyosun sürekli sözlerimi çarpıtıyosun"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Esra", "message": "insanların içinde beni sürekli bozuyosun"},
+      {"sender": "Furkan", "message": "bozmuyorum sadece fikrimi söylüyorum"}
+    ],
+    "target": {"sender": "Furkan", "message": "ayrıca gruptaki kimse rahatsız değil sadece sen sorun çıkarıyosun sence de problem sende değil mi?"},
+    "label": "gaslighting"
+  },
+  {
+    "context": [
+      {"sender": "Gözde", "message": "telefonunu neden benden saklıyosun?"},
+      {"sender": "Hakan", "message": "saklamıyorum cebimde duruyo"}
+    ],
+    "target": {"sender": "Hakan", "message": "senin bu gereksiz kıskançlık krizlerin harbi çok yorucu oldu sürekli bi şeyler arıyosun bence sen git bi tedavi falan ol"},
+    "label": "gaslighting"
+  }
+]

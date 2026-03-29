@@ -1,17 +1,11 @@
 from pathlib import Path
 
-# Proje root'unu bul (toxic-wrapped/)
-# config.py -> ml-service/ içinde, onun parent'ı toxic-wrapped/
-ROOT_DIR = Path(__file__).resolve().parent.parent
-
 # Paths
+ROOT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT_DIR / "data"
 MODEL_DIR = ROOT_DIR / "ml-service" / "models"
+MODEL_PATH = MODEL_DIR / "toxic-wrapped-model-BESTSCORE"  # ← YENİ
 DATASET_PATH = DATA_DIR / "dataset" / "dataset.json"
-
-print(f"DEBUG ROOT_DIR: {ROOT_DIR}")
-print(f"DEBUG DATASET_PATH: {DATASET_PATH}")
-print(f"DEBUG File exists: {DATASET_PATH.exists()}")
 
 # Model
 BASE_MODEL = "dbmdz/bert-base-turkish-cased"

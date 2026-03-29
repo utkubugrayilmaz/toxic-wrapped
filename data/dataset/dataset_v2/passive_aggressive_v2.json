@@ -1,0 +1,692 @@
+[
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "kanka akşamki plana ben katılamayacağım ya, acil işim çıktı."},
+      {"sender": "Kişi_B", "message": "hadi ya, noldu ki kötü bişey yok inş?"},
+      {"sender": "Kişi_A", "message": "yok kanka halamlar geldi şehir dışından, onlarla oturmam lazım."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Peki."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["cezalandirici_sessizlik"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "anne bu hafta sonu gelemicem sanırım, projeler çok birikti."},
+      {"sender": "Kişi_B", "message": "yine mi oğlum? baban da seni bekliyordu pazar mangal yaparız diye."},
+      {"sender": "Kişi_A", "message": "valla elde değil anne, çok sıkıştım. haftaya kesin gelicem ama."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Tamam."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["cezalandirici_sessizlik"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "ali bey, dünkü raporu pazartesi sabahına yetiştirmemiz gerekecek. hafta sonu biraz mesai yapabilir misiniz?"},
+      {"sender": "Kişi_B", "message": "ama hafta sonu için şehir dışı planım vardı, biletlerimi almıştım."},
+      {"sender": "Kişi_A", "message": "durum çok acil maalesef, üst yönetim bekliyor. iptal etmeniz gerekecek."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "İyi."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["cezalandirici_sessizlik"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "aşkım bulaşıkları makineye dizdin mi, sabahtan beri tezgahta duruyorlar?"},
+      {"sender": "Kişi_A", "message": "ya oyuna dalmışım hiç fark etmedim valla"},
+      {"sender": "Kişi_B", "message": "bütün gün evdeydin bi makineyi çalıştırmak bu kadar zor olmamalı"},
+      {"sender": "Kişi_A", "message": "tamam kalkıp diziyorum şimdi uzatma"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Tamam."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["cezalandirici_sessizlik"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "ya o fotoğraftaki kızı niye beğendin instagramda?"},
+      {"sender": "Kişi_B", "message": "hangi kızı ya? keşfette düşmüştür öylesine beğenmişimdir"},
+      {"sender": "Kişi_A", "message": "eski sevgilinin yakın arkadaşı bu, öylesine değildir herhalde."},
+      {"sender": "Kişi_B", "message": "valla dikkat etmedim bile saçmalama lütfen"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Peki."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["cezalandirici_sessizlik"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "nerde kaldın 40 dk oldu ağaç oldum burda?"},
+      {"sender": "Kişi_A", "message": "trafiği görsen ağlarsın, adım adım ilerliyor kaza olmuş sanırım"},
+      {"sender": "Kişi_B", "message": "her buluşmada aynı şey ama, erken çıksaydın biraz"},
+      {"sender": "Kişi_A", "message": "elimde olan bişey değil diyorum bana patlıyorsun"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "İyi."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["cezalandirici_sessizlik"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "kanka şu geçen ay aldığım borcu bi 10 gün daha geciktirsem olur mu? kirayı anca denkleştirdim."},
+      {"sender": "Kişi_B", "message": "kanka benim de kredi kartı ekstrem kesilecek bu hafta, güveniyordum ona"},
+      {"sender": "Kişi_A", "message": "çok sıkıştım kanka neresinden tutsam elimde kalıyor, idare et nolur"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Tamam."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["cezalandirici_sessizlik"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "şu dizinin yeni sezonunu ne zaman izlicez beraber?"},
+      {"sender": "Kişi_A", "message": "şu an spordayım aşkım, dönünce bakarız olur mu?"},
+      {"sender": "Kişi_B", "message": "dün de arkdaşlarınlaydın, spordu şuydu buydu derken bana hiç vakit ayırmıyorsun"},
+      {"sender": "Kişi_A", "message": "kendime vakit ayırmam da mı suç oldu şimdi?"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "İyi tamam."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["cezalandirici_sessizlik"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "of müdür yine bana taktı kafayı, bütün angarya işleri bana kitledi bugün."},
+      {"sender": "Kişi_B", "message": "sen de çok yüz veriyorsun bence, hayır demeyi öğrenmen lazım."},
+      {"sender": "Kişi_A", "message": "ya anlamıyorsun ki adam ters yaparsam mobbing uyguluyor, işten mi kovulayım?"},
+      {"sender": "Kişi_B", "message": "ben sadece fikrimi söyledim, ezdirme kendini diyorum"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Aman iyi boşver derdimi anlattığımda kabahat."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["suclayici_vazgecis"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "baba şu yeni bölümü yazmak istiyorum ama desteklemeniz lazım biraz."},
+      {"sender": "Kişi_A", "message": "oğlum o bölümde iş yok ki, mezun olunca işsiz kalacaksın. mühendislik falan yaz"},
+      {"sender": "Kişi_B", "message": "ama benim ilgim o yönde değil, mutsuz mu olayım 40 yıl o meslekte?"},
+      {"sender": "Kişi_A", "message": "biz senin iyiliğini düşünüyoruz, sonra başımızı ağrıtacaksın"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Neyse kalsın, kendi başımın çaresine bakarım."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["suclayici_vazgecis"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "sunumu bitirdin mi? toplantıya 10 dk kaldı"},
+      {"sender": "Kişi_B", "message": "dosyayı gönderdim sana mailden, grafikleri de ben ekledim."},
+      {"sender": "Kişi_A", "message": "tamamdır ben şimdi patrona yolluyorum, 'ben hazırladım' diyeceğim."},
+      {"sender": "Kişi_B", "message": "nasıl yani? yarısını ben yaptım sunumun?"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Siktir et ya, oyna sen kendi çapında."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["suclayici_vazgecis"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "marketten gelirken o sevdiğim cipsi de alır mısın yeşil olandan?"},
+      {"sender": "Kişi_B", "message": "kırmızı olandan aldım valla yeşil kalmamıştı."},
+      {"sender": "Kişi_A", "message": "ama ben onu sevmiyorum ki, keşke sorsaydın almadan önce başka markete bakardın."},
+      {"sender": "Kişi_B", "message": "ne bileyim seversin diye düşündüm bi kere de itiraz etme ya"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Aman kalsın yemicem, sen yersin kendi aldığını."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["suclayici_vazgecis"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "2 saattir mesajıma dönmüyorsun ama story atıp duruyorsun?"},
+      {"sender": "Kişi_B", "message": "ya görmemişim bildirimi sessizdeydi telefon."},
+      {"sender": "Kişi_A", "message": "instagrama girip story atarken nası görmüyorsun dm'den yazdığımı?"},
+      {"sender": "Kişi_B", "message": "daraltma beni lütfen ya valla görmedim"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Neyse salla, hiç konuşmayalım daha iyi."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["suclayici_vazgecis"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "hangi filmi izliyoruz akşam kararlaştıralım artık?"},
+      {"sender": "Kişi_A", "message": "ben bilim kurgu falan bakınıyorum sana uyar mı?"},
+      {"sender": "Kişi_B", "message": "ya of yine mi bilim kurgu, içim daralıyor benim onlardan romantik bişeyler açalım"},
+      {"sender": "Kişi_A", "message": "hep senin istediklerini izliyoruz ama"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Aman iyi kapat boşver, izlemiyoruz hiçbir şey."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["suclayici_vazgecis"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "hesabı nasıl yapıyoruz yarı yarıya mı girelim?"},
+      {"sender": "Kişi_B", "message": "ben sadece çay içtim sen yemek yedin, yarı yarıya girmek saçma olur bence"},
+      {"sender": "Kişi_A", "message": "ne alakası var geçen ben de senin kahveni ödemiştim lafını mı yapıyorsun?"},
+      {"sender": "Kişi_B", "message": "lafını yapmıyorum sadece adil olsun diyorum"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Boşver siktir et, hepsini ben öderim senin paran cebinde kalsın."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["suclayici_vazgecis"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "bu çaldığın şarkı çok kafa ütülüyor kulaklık takar mısın?"},
+      {"sender": "Kişi_A", "message": "en sevdiğim albüm bu ya, sesi çok açık değil ki"},
+      {"sender": "Kişi_B", "message": "baya gürültülü ama odaklanamıyorum kitaba"},
+      {"sender": "Kişi_A", "message": "iyi peki kısıyorum biraz daha"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Neyse kapattım kökten, keyfini çıkar sessizliğin."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["suclayici_vazgecis"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "biz bugün kızlarla dışarı çıkıyoruz, sen de takıl istersen bizimle"},
+      {"sender": "Kişi_B", "message": "beni önceden neden çağırmadın ki plan yaparken?"},
+      {"sender": "Kişi_A", "message": "ya anlık gelişti, hem senin işin vardır diye düşündüm"},
+      {"sender": "Kişi_B", "message": "yok evde oturuyordum bütün gün, neyse siz gidin"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "İyi eğlenceler size :)"
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["ironik_emoji"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "baba bana niye sormadan abime verdiniz arabayı bu hafta sonu?"},
+      {"sender": "Kişi_B", "message": "onun kız arkadaşıyla planı varmış oğlum acilmiş biraz durumu."},
+      {"sender": "Kişi_A", "message": "benim de arkadaşlarımla kamp planım vardı 2 haftadır söylüyorum size."},
+      {"sender": "Kişi_B", "message": "abinin daha önemliymiş demek ki idare et bu seferlik."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Çok adilsiniz gerçekten 👍"
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["ironik_emoji"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "dosyaları masana bıraktım, ben bugün erken çıkıyorum doktor randevum var."},
+      {"sender": "Kişi_A", "message": "bunların yarına yetişmesi lazım biliyorsun dimi?"},
+      {"sender": "Kişi_B", "message": "evet biliyorum sana güveniyorum halledersin sen sağol."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Senin yerine de çalışırım sorun değil, geçmiş olsun 🙃"
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["ironik_emoji"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "evi süpürdüm ben ama toz alma işini sen yapsan olur mu? yoruldum biraz."},
+      {"sender": "Kişi_B", "message": "ya ben de sabahtan beri koşturuyorum dışarda, halim kalmadı hiç."},
+      {"sender": "Kişi_A", "message": "ama hafta sonu temizlik yapıcaz diye baştan konuşmuştuk, ben de işten yorgun geldim."},
+      {"sender": "Kişi_B", "message": "yaparım yarın falan nolcak tozdan ölmeyiz ya"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Ellerine sağlık çok yardımcı oldun 👏"
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["ironik_emoji"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "mesajlarıma niye cevap vermiyosun yarım saattir onlinesın?"},
+      {"sender": "Kişi_A", "message": "ya gruplarda falan konuşuyorduk fark etmedim valla"},
+      {"sender": "Kişi_B", "message": "ama twitter'da rt falan yapıyorsun maşallah hızına yetişilmiyor"},
+      {"sender": "Kişi_A", "message": "bunaltıyorsun ama beni sürekli takip etme"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Harika bi iletişim kuruyoruz cidden :)"
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["ironik_emoji"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "hazırlanıyor musun yarım saate ordayım?"},
+      {"sender": "Kişi_B", "message": "ya ben yeni uyandım alarm çalmamış :("},
+      {"sender": "Kişi_A", "message": "şaka yapıyorsun dimi, saat 2 oldu ne uyanması?"},
+      {"sender": "Kişi_B", "message": "valla çok yorgundum hemen hazırlanıp çıkıyorum 1 saate ordayım"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Zaman yönetimin mükemmel harikasın :)"
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["ironik_emoji"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "kanka şu konser biletini sen alsana benden, benim maaş yatmadı daha."},
+      {"sender": "Kişi_A", "message": "e ama ben de sıkışığım biliyorsun, kendi biletini alırsın diye ayarlamıştım."},
+      {"sender": "Kişi_B", "message": "halledicem söz yatınca direkt atıcam sana, alıver nolur tükenmeden."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Hep aynı muhabbet zaten şaşırtmadın 🙃"
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["ironik_emoji"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "şu bilgisayar oyunlarına bu kadar vakit harcayacağına iki sayfa kitap okusan keşke."},
+      {"sender": "Kişi_B", "message": "ben günün stresini böyle atıyorum, sana ne zararı var?"},
+      {"sender": "Kişi_A", "message": "bomboş vakit kaybı, kendini hiç geliştirmiyorsun ondan diyorum."},
+      {"sender": "Kişi_B", "message": "herkes senin gibi entel olmak zorunda değil canım benim"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Aynen en faydalı işleri sen yapıyorsun zaten :)"
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["ironik_emoji"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "biz ahmetlerle tatil planı yaptık egeye iniyoruz haftaya."},
+      {"sender": "Kişi_A", "message": "bana hiç bahsetmemiştin? ben de iznimi ona göre ayarlardım belki."},
+      {"sender": "Kişi_B", "message": "ya sen yoğun oluyorsun diye sormadık pek, aniden gelişti zaten."},
+      {"sender": "Kişi_A", "message": "bi sorsaydınız keşke gelip gelmeyeceğimi..."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Biz kimiz ki zaten akla gelelim, anca sonradan haberimiz olur."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["igneleyici_karsilastirma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "kardeşinin sınav sonuçları çok iyi gelmiş, istediği bölümü kazanacak gibi."},
+      {"sender": "Kişi_B", "message": "evet gördüm tebrik ettim ben de."},
+      {"sender": "Kişi_A", "message": "sen de biraz örnek alsan keşke, sen o yaşta hiç çalışmıyordun."},
+      {"sender": "Kişi_B", "message": "yine konu nasıl bana geldi acaba anne?"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Ben alışkınım zaten bu evde her fırsatta gömülmeye."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["igneleyici_karsilastirma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "duydun mu merve'yi proje yöneticisi yapmışlar?"},
+      {"sender": "Kişi_A", "message": "evet az önce mail geldi, tebrik ettim."},
+      {"sender": "Kişi_B", "message": "oysa ki o projeyi baştan sona sen toparlamıştın, hakkın yendi resmen."},
+      {"sender": "Kişi_A", "message": "yapacak bişey yok yönetimin kararı."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Bizim eşek gibi çalışmamızın kime ne faydası var ki zaten, başkası kaymağını yer."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["igneleyici_karsilastirma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "şu dolabı da bi ara düzenlesek, her şey üst üste binmiş aradığımı bulamıyorum."},
+      {"sender": "Kişi_B", "message": "sen de elini taşın altına koysan düzenli kalır aslında, her şeyi benden bekliyorsun."},
+      {"sender": "Kişi_A", "message": "ne alakası var ben de çamaşırları yıkıyorum ütülüyorum."},
+      {"sender": "Kişi_B", "message": "görüyoruz o yıkadıklarını da"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Tabi tabi sen yapmasan biz çöplükte yaşıyoruz, evin tek kahramanı sensin."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["igneleyici_karsilastirma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "instagram'a foto atarken beni neden hep kesiyorsun kadrajdan?"},
+      {"sender": "Kişi_A", "message": "ya o fotoda ben çok iyi çıkmıştım, senin de gözün kapalı çıkmış diye kırptım."},
+      {"sender": "Kişi_B", "message": "ama hiç beraber fotomuz yok profilinde, sanki saklıyorsun beni."},
+      {"sender": "Kişi_A", "message": "abartıyorsun yine ne saklaması ya"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Ben senin profilinde sergileyeceğin kadar mükemmel değilim zaten, doğru."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["igneleyici_karsilastirma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "ya benim 5'teki ders iptal oldu, buluşmayı 3'e alsak olur mu?"},
+      {"sender": "Kişi_B", "message": "ama ben ona göre plan yaptım, 4'e kadar işlerim var dışarda."},
+      {"sender": "Kişi_A", "message": "çok beklerim valla ya nolur aradan çıkarsan 1 saatte?"},
+      {"sender": "Kişi_B", "message": "senin dersine göre tüm günümü değiştiremem ki"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Benim vaktimin bi değeri yok zaten senin programın paşa keyfi ne isterse."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["igneleyici_karsilastirma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "kendime şu yeni çıkan kulaklıktan sipariş verdim sonunda!"},
+      {"sender": "Kişi_A", "message": "hayırlı olsun, ne kadara aldın?"},
+      {"sender": "Kişi_B", "message": "biraz tuzlu oldu 8 bin falan ama değer bence."},
+      {"sender": "Kişi_A", "message": "geçen benim telefon kılıfı için 300 tl çok demiştin ama..."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Bize bu layık görülüyor demek ki, sen en iyilerine layıksın."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["igneleyici_karsilastirma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "tam gitar çalmaya başlıyorum sen yan odada elektrik süpürgesi açıyorsun?"},
+      {"sender": "Kişi_B", "message": "evi temizliyorum herhalde keyfimden açmadım."},
+      {"sender": "Kişi_A", "message": "ama 1 saattir boştu ev ben elime alınca mı temizlik perisi geldi?"},
+      {"sender": "Kişi_B", "message": "işim bitti zaten abartma istersen"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Benim bi hobiye vakit ayırmam lüks zaten bu evde, şaşırmadım."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["igneleyici_karsilastirma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "dün sana verdiğim dosyayı kargoya verdin mi?"},
+      {"sender": "Kişi_A", "message": "hay aksi tamamen aklımdan çıkmış o benim ya."},
+      {"sender": "Kişi_B", "message": "ama çok acil demiştim sana nasıl unutabilirsin?"},
+      {"sender": "Kişi_A", "message": "iş yerinde çok stresli bi gündü kafam dalmış özür dilerim."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Aynen aynen kesin unutmuşsundur, hiç bilerek yapmazsın."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["kucumseyici_onay"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "anne dün arayamadım telefonu şarja takıp sızmışım valla."},
+      {"sender": "Kişi_B", "message": "merak ettim bütün gece gözüme uyku girmedi."},
+      {"sender": "Kişi_A", "message": "haklısın yemin ederim uyanınca ilk iş arayacaktım seni telaştan işe geç kaldım."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Tabi tabi kesin arardın, sormasak aklına geldiğimiz yok."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["kucumseyici_onay"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "kodlarda bi hata var sistem çöktü senin dün attığın deploy yüzünden bence."},
+      {"sender": "Kişi_A", "message": "benim kodlarım lokalde tıkır tıkır çalışıyordu sunucuyla alakalı bişey o."},
+      {"sender": "Kişi_B", "message": "ama loglara bakıyorum senin committen sonra patlamış her şey."},
+      {"sender": "Kişi_A", "message": "valla benden kaynaklı değil aws sunucusu drop yedi herhalde."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "He he kesin amazon'un suçudur, senin kodlar kusursuz zaten."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["kucumseyici_onay"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "banyoyu yine su içinde bırakmışsın kaç kere dicem paspası sık diye?"},
+      {"sender": "Kişi_B", "message": "tamam bağırma ya ben tam gidip temizleyecektim sen girdin banyoya."},
+      {"sender": "Kişi_A", "message": "1 saat oldu sen duştan çıkalı ne zaman temizleyecektin tam olarak?"},
+      {"sender": "Kişi_B", "message": "işim vardı herhalde fırsat olmadı."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Aynen aynen ben söylemesem kesin koşa koşa temizlerdin."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["kucumseyici_onay"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "o kızın yorumuna alev emojisi atarken elin mi çarptı acaba?"},
+      {"sender": "Kişi_A", "message": "ya valla telefon cebimdeydi yürürken kendi kendine basmış ekrana."},
+      {"sender": "Kişi_B", "message": "cebinde kendi kendine alev emojisi bulup yollamış yani helal olsun telefona."},
+      {"sender": "Kişi_A", "message": "aşkım yemin ederim ekran kilidi açık kalmış saçmalama" }
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Tabi canım kesin cebinde kendi kendine yazmıştır inandım."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["kucumseyici_onay"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "kusura bakma 40 dk geç kaldım ama çevre yolunda trafik kilitlenmiş resmen."},
+      {"sender": "Kişi_B", "message": "navigasyondan baksaydın keşke başka yoldan gelirdin."},
+      {"sender": "Kişi_A", "message": "navigasyon da açık değildi ki şarjım bitmesin diye kapattım."},
+      {"sender": "Kişi_B", "message": "anladım iyi bari."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Aynen aynen tesadüfe bak o trafik hep seni buluyor zaten."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["kucumseyici_onay"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "kanka şu bizim borç mevzusunu naptın, maaşlar yattıysa atabilir misin?"},
+      {"sender": "Kişi_A", "message": "kanka benim hesapta bi bloke blme bişeyler oldu sorma bankaya gidicem yarın."},
+      {"sender": "Kişi_B", "message": "2 haftadır sürekli bişey çıkıyor ama ihtiyacım var diyorum."},
+      {"sender": "Kişi_A", "message": "yarın çözülür çözülmez ilk işim sana yollamak valla."}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Tabi tabi yarın kesin atarsın he, bekliyorum dört gözle."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["kucumseyici_onay"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "geliyo musun sofraya yemek buz gibi oldu?"},
+      {"sender": "Kişi_B", "message": "geliyorum 5 dk bekle, şu bossu kesmem lazım oyunda."},
+      {"sender": "Kişi_A", "message": "yarım saat önce de 5 dk demiştin ama sen, kalkıp masayı toplayacağım artık."},
+      {"sender": "Kişi_B", "message": "ya bitti diyorum son vuruşlar bekle az."}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Aynen o 5 dakika hiç bitmiyor zaten, sen oyna sabahtan akşama kadar."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["kucumseyici_onay"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "akşamki yemeği yarına ertelesek olur mu?"},
+      {"sender": "Kişi_B", "message": "neden ki bi sorun mu var?"},
+      {"sender": "Kişi_A", "message": "ya mesaiye kalmam gerekti ofiste, çok yorgunum :("}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Tamam."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["cezalandirici_sessizlik"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "geldin mi eve?"},
+      {"sender": "Kişi_A", "message": "2 saat oldu ya, yazmayı unutmuşum oyuna dalmışım."},
+      {"sender": "Kişi_B", "message": "hımm anladım iyi"},
+      {"sender": "Kişi_A", "message": "kızdın mı bana?"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Yok."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["cezalandirici_sessizlik"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "dün sana anlattığım konuyla ilgili ne düşünüyorsun?"},
+      {"sender": "Kişi_B", "message": "hangi konu ya, kafam çok doluydu dünden beri kaçırmışım"},
+      {"sender": "Kişi_A", "message": "cidden hiç dinlememişsin beni..."},
+      {"sender": "Kişi_B", "message": "aşkım abartma lütfen tekrar anlatsan nolur sanki"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Neyse boşver ya anlatmıcam."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["suclayici_vazgecis"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "akşam gelirken marketten sütle yumurta alır mısın?"},
+      {"sender": "Kişi_B", "message": "of unuttum ben onu, otobüse bindim bile"},
+      {"sender": "Kişi_A", "message": "e sabah özellikle tembihlemiştim sana evde hiçbir şey yok diye"},
+      {"sender": "Kişi_B", "message": "dur ineyim bari bi sonraki durakta"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Siktir et kalsın, ben kendim gider alırım."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["suclayici_vazgecis"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "kiminleydin kafede, storyde bi kız kolu gördüm sanki dsfsd"},
+      {"sender": "Kişi_A", "message": "ha o bizim ofisten stajyer ya, projeyi soruyordu"},
+      {"sender": "Kişi_B", "message": "hmm anladım, baya da yakındınız herhalde"},
+      {"sender": "Kişi_A", "message": "saçmalama hayatım sadece iş konuşuyorduk"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "İyi çalışmalar o zaman size :)"
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["ironik_emoji"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "hafta sonu ailemin yanına gidiyorum, sen de gelsene?"},
+      {"sender": "Kişi_B", "message": "benim arkadaşlarla önceden yaptığımız bi plan vardı halısaha falan"},
+      {"sender": "Kişi_A", "message": "ama annemler seni sormuştu geçen hafta da ekmiştin"},
+      {"sender": "Kişi_B", "message": "valla söz verdim iptal edemem şimdi çocuklara ayıp olur"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "İyi eğlenceler o zaman sana 👋🙃"
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["ironik_emoji"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "kusura bakma ya dünkü buluşmayı ektim ama kankam çok kötüydü"},
+      {"sender": "Kişi_B", "message": "sorun değil"},
+      {"sender": "Kişi_A", "message": "telafi edicem söz, yarın görüşelim mi?"},
+      {"sender": "Kişi_B", "message": "bilemiyorum yarın işim olabilir"}
+    ],
+    "target": {
+      "sender": "Kişi_A",
+      "message": "Ben alışkınım zaten ikinci plana atılmaya, sıkıntı yok."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["igneleyici_karsilastirma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "evi taşıdın mı naptın, yardıma gelemedim kusura bakma belim ağrıyordu"},
+      {"sender": "Kişi_B", "message": "hallettim ya tek başıma yavaş yavaş taşıdım"},
+      {"sender": "Kişi_A", "message": "kıyamam çok yorulmuşsundur keşke başka birini çağırsaydın"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Gerek yok ya senelerdir her işimi kendim halletmeye alıştım nasılsa."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["igneleyici_karsilastirma"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_B", "message": "bana dünkü tavrın hiç hoş değildi, herkesin içinde tersledin beni"},
+      {"sender": "Kişi_A", "message": "ya abartıyorsun ben sadece şaka yapmıştım"},
+      {"sender": "Kişi_B", "message": "şaka değildi baya ciddi ciddi bozuldum ama"},
+      {"sender": "Kişi_A", "message": "of tamam ya bi daha yapmam uzatma"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Aynen aynen, sen haklısın hep zaten."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["kucumseyici_onay"]
+  },
+  {
+    "context": [
+      {"sender": "Kişi_A", "message": "ya parayı yollayacaktım ama maaş yatmamış hesaba sabahtan beri"},
+      {"sender": "Kişi_B", "message": "e dün kesin yatar demiştin ödemem var benim de"},
+      {"sender": "Kişi_A", "message": "elimde olan bişey değil ki sistemle alakalı sanırım"}
+    ],
+    "target": {
+      "sender": "Kişi_B",
+      "message": "Tabi tabi kesin sistemle alakalıdır."
+    },
+    "label": "passive_aggressive",
+    "sub_indicators": ["kucumseyici_onay"]
+  }
+]
