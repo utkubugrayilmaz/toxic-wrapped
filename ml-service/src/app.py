@@ -14,7 +14,7 @@ from pathlib import Path
 
 # Config import
 sys.path.append(str(Path(__file__).parent.parent))
-from config import MODEL_PATH, MAX_LENGTH, ID2LABEL
+from config import MODEL_PATH, MAX_LENGTH, ID2LABEL, ALLOWED_ORIGINS, RATE_LIMIT_PER_MINUTE
 
 # ============== LOGGING ==============
 logging.basicConfig(
@@ -99,16 +99,16 @@ async def global_exception_handler(request: Request, exc: Exception):
 # ============== CORS ==============
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],  # Frontend
+    allow_origins=ALLOWED_ORIGINS,  # artık .env'den geliyor
     allow_credentials=True,
     allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
 
 # ============== CONSTANTS ==============
-MAX_CONTEXT_MESSAGES = 10  # En fazla 10 context mesajı
-MAX_MESSAGE_LENGTH = 1000  # Mesaj başına en fazla 1000 karakter
-MAX_REQUESTS_PER_MINUTE = 30  # Dakikada en fazla 30 istek
+MAX_CONTEXT_MESSAGES = 10
+MAX_MESSAGE_LENGTH = 1000
+MAX_REQUESTS_PER_MINUTE = RATE_LIMIT_PER_MINUTE  # artık .env'den geliyor
 
 
 # ============== REQUEST/RESPONSE MODELS ==============
