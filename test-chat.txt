@@ -1,0 +1,10 @@
+[01.01.2024, 14:30:00] Ali: Merhaba nasılsın?
+[01.01.2024, 14:31:00] Ayşe: İyiyim sen nasılsın? 😊
+[01.01.2024, 14:32:00] Ali: Ben de iyiyim, bugün ne napıyosun?
+[01.01.2024, 14:33:00] Ayşe: Evdeyim, sen?
+[01.01.2024, 14:35:00] Ali: Neden aramadın dün gece? Hep ben mi arayacağım?
+[01.01.2024, 14:36:00] Ayşe: Meşguldüm, söyledim sana
+[01.01.2024, 14:37:00] Ali: Hep aynı bahaneler. Seni bu kadar düşünüyorum ama sen umursamıyorsun bile.
+[01.01.2024, 14:40:00] Ayşe: Ne alakası var şimdi bunun?
+[01.01.2024, 14:42:00] Ali: Boşver, her şey benim suçum zaten 🙄
+[01.01.2024, 14:45:00] Ayşe: Tamam sakin ol, akşam konuşuruz
