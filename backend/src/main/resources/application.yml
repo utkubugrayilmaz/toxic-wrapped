@@ -16,8 +16,31 @@ ml-service:
 app:
   cors:
     allowed-origins: ${CORS_ORIGINS:http://localhost:3000,http://127.0.0.1:3000}
+  rate-limit:
+    requests-per-minute: ${RATE_LIMIT:20}
 
 logging:
   level:
     root: INFO
     com.toxicwrapped: ${LOG_LEVEL:DEBUG}
+
+
+# Actuator - Monitoring
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+      base-path: /actuator
+  endpoint:
+    health:
+      show-details: ${ACTUATOR_HEALTH_DETAILS:never}
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: toxic-wrapped-backend
+    version: 1.0.0
+    description: WhatsApp Chat Analyzer

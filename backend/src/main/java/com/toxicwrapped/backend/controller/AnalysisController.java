@@ -28,7 +28,6 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/v1")
 @RequiredArgsConstructor
-@CrossOrigin(origins = {"http://localhost:3000", "http://127.0.0.1:3000"})
 public class AnalysisController {
 
     private final WhatsAppParserService parserService;
