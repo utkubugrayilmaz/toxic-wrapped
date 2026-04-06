@@ -326,17 +326,20 @@ export function getEmojiNarrative(
   title: string;
   description: string;
   emojiPerMessage: number;
+  topThree: string[];
 } {
   const emojiPerMessage = totalMessages > 0 ? totalEmojis / totalMessages : 0;
-  const topEmojiList = Object.entries(topEmojis)
+  const topThree = Object.entries(topEmojis)
     .sort((a, b) => b[1] - a[1])
-    .slice(0, 3);
+    .slice(0, 3)
+    .map(([emoji]) => emoji);
 
   if (totalEmojis === 0) {
     return {
       title: 'Emoji Yok',
       description: 'Bu sohbette hiç emoji kullanılmamış. Çok mu ciddiler yoksa 2005\'te mi kalmışlar?',
       emojiPerMessage: 0,
+      topThree: [],
     };
   }
 
@@ -345,6 +348,7 @@ export function getEmojiNarrative(
       title: 'Emoji Cimrisi',
       description: 'Her 10 mesajda ancak 1 emoji düşmüş. Duygularınızı saklamayı seviyorsunuz galiba.',
       emojiPerMessage,
+      topThree,
     };
   }
 
@@ -353,6 +357,7 @@ export function getEmojiNarrative(
       title: 'Emoji Bombardımanı',
       description: 'Her mesajda ortalama 1\'den fazla emoji! Kelimeler yetmiyor herhalde, emojilerle konuşuyorsunuz.',
       emojiPerMessage,
+      topThree,
     };
   }
 
@@ -360,5 +365,6 @@ export function getEmojiNarrative(
     title: 'Dengeli Emoji Kullanımı',
     description: 'Normal seviyede emoji kullanımı. Ne çok soğuk, ne de emoji spam.',
     emojiPerMessage,
+    topThree,
   };
 }
