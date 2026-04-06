@@ -1,65 +1,161 @@
-import Image from "next/image";
+'use client';
+
+import { useState } from 'react';
+import { motion } from 'framer-motion';
+import { DropZone } from '@/components/upload/DropZone';
+import { TypingIndicator, GlassCard } from '@/components/ui';
+import { analyzeChat } from '@/lib/api';
+import { AnalysisResponse } from '@/types/api';
+import { MessageCircle, Shield, Sparkles } from 'lucide-react';
+
+type AppState = 'upload' | 'analyzing' | 'results';
 
 export default function Home() {
+  const [state, setState] = useState<AppState>('upload');
+  const [error, setError] = useState<string | null>(null);
+  const [result, setResult] = useState<AnalysisResponse | null>(null);
+
+  const handleFileSelect = async (file: File) => {
+    setError(null);
+    setState('analyzing');
+
+    try {
+      const response = await analyzeChat(file);
+      setResult(response);
+      setState('results');
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Bir hata oluştu');
+      setState('upload');
+    }
+  };
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <main className="min-h-screen flex flex-col">
+      {/* Upload State */}
+      {state === 'upload' && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          className="flex-1 flex flex-col items-center justify-center p-6"
+        >
+          {/* Logo & Title */}
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-center mb-8"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+            <h1 className="text-4xl sm:text-5xl font-bold text-[#E9EDEF] mb-2">
+              Toxic <span className="text-[#25D366]">Wrapped</span>
+            </h1>
+            <p className="text-[#8696A0]">
+              WhatsApp sohbetlerini analiz et, gerçekleri gör
+            </p>
+          </motion.div>
+
+          {/* DropZone */}
+          <DropZone
+            onFileSelect={handleFileSelect}
+            isLoading={false}
+            error={error}
+          />
+
+          {/* Features */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2 }}
+            className="flex flex-wrap justify-center gap-6 mt-12"
+          >
+            <Feature
+              icon={<MessageCircle className="w-5 h-5" />}
+              text="Mesaj Analizi"
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+            <Feature
+              icon={<Sparkles className="w-5 h-5" />}
+              text="AI Destekli"
+            />
+            <Feature
+              icon={<Shield className="w-5 h-5" />}
+              text="Veriler Saklanmaz"
+            />
+          </motion.div>
+        </motion.div>
+      )}
+
+      {/* Analyzing State */}
+      {state === 'analyzing' && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="flex-1 flex flex-col items-center justify-center p-6"
+        >
+          <GlassCard className="text-center">
+            <h2 className="text-xl font-semibold text-[#E9EDEF] mb-4">
+              Sohbet analiz ediliyor...
+            </h2>
+            <div className="flex justify-center mb-4">
+              <TypingIndicator />
+            </div>
+            <p className="text-[#8696A0] text-sm">
+              Bu işlem birkaç saniye sürebilir
+            </p>
+          </GlassCard>
+        </motion.div>
+      )}
+
+      {/* Results State - Şimdilik basit gösterim */}
+      {state === 'results' && result && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="flex-1 flex flex-col items-center justify-center p-6"
+        >
+          <GlassCard className="w-full max-w-md">
+            <h2 className="text-2xl font-bold text-[#25D366] mb-4">
+              🎉 Analiz Tamamlandı!
+            </h2>
+            
+            <div className="space-y-3 text-[#E9EDEF]">
+              <p>
+                <span className="text-[#8696A0]">Toplam Mesaj:</span>{' '}
+                <strong>{result.statistics.totalMessages}</strong>
+              </p>
+              <p>
+                <span className="text-[#8696A0]">Katılımcı:</span>{' '}
+                <strong>{result.statistics.totalParticipants}</strong>
+              </p>
+              <p>
+                <span className="text-[#8696A0]">En Aktif:</span>{' '}
+                <strong>{result.statistics.mostActiveParticipant}</strong>
+              </p>
+              <p>
+                <span className="text-[#8696A0]">Genel Ton:</span>{' '}
+                <strong>{result.overallTone.dominantTone}</strong>
+              </p>
+            </div>
+
+            <button
+              onClick={() => {
+                setState('upload');
+                setResult(null);
+              }}
+              className="mt-6 w-full py-3 bg-[#25D366] text-white font-semibold rounded-lg hover:bg-[#1da851] transition-colors"
+            >
+              Yeni Analiz
+            </button>
+          </GlassCard>
+        </motion.div>
+      )}
+    </main>
+  );
+}
+
+function Feature({ icon, text }: { icon: React.ReactNode; text: string }) {
+  return (
+    <div className="flex items-center gap-2 text-[#8696A0]">
+      {icon}
+      <span className="text-sm">{text}</span>
     </div>
   );
 }

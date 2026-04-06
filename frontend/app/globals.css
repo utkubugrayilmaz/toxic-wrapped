@@ -1,26 +1,57 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ========================================
+   WhatsApp Dark Theme - Custom Colors
+   ======================================== */
+@theme {
+  /* WhatsApp Dark Mode Palette */
+  --color-whatsapp-dark: #111B21;
+  --color-whatsapp-darker: #0B141A;
+  --color-whatsapp-light: #202C33;
+  --color-whatsapp-border: #2A3942;
+  --color-whatsapp-green: #25D366;
+  --color-whatsapp-teal: #00A884;
+  --color-whatsapp-blue: #53BDEB;
+  --color-whatsapp-text-primary: #E9EDEF;
+  --color-whatsapp-text-secondary: #8696A0;
+  --color-whatsapp-bubble-outgoing: #005C4B;
+  --color-whatsapp-bubble-incoming: #202C33;
+
+  /* Behavior Colors */
+  --color-behavior-gaslighting: #F59E0B;
+  --color-behavior-love-bombing: #EC4899;
+  --color-behavior-passive-aggressive: #3B82F6;
+  --color-behavior-neutral: #25D366;
+
+  /* Fonts */
+  --font-sans: 'Inter', system-ui, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* ========================================
+   Base Styles
+   ======================================== */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-whatsapp-dark);
+  color: var(--color-whatsapp-text-primary);
+  font-family: var(--font-sans);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-whatsapp-darker);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-whatsapp-border);
+  border-radius: 3px;
+}
+
+/* Selection */
+::selection {
+  background-color: var(--color-whatsapp-teal);
+  color: #ffffff;
 }
