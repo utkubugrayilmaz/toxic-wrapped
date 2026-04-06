@@ -32,7 +32,7 @@ import java.util.regex.Pattern;
 public class WhatsAppParserService {
 
     private static final Pattern PATTERN_BRACKETED = Pattern.compile(
-            "^\\[(\\d{1,2}\\.\\d{1,2}\\.\\d{4}),\\s*(\\d{1,2}:\\d{2}(?::\\d{2})?)\\]\\s*([^:]+):\\s*(.+)$"
+            "^\\[(\\d{1,2}\\.\\d{1,2}\\.\\d{4}),?\\s+(\\d{1,2}:\\d{2}(?::\\d{2})?)\\]\\s*([^:]+):\\s*(.+)$"
     );
 
     private static final Pattern PATTERN_DASHED = Pattern.compile(
